@@ -1,0 +1,4 @@
+run_utc,id,url,status,http,bytes,n_angka,sidik,berubah,disimpan,berkas,catatan
+2026-11-09T17:12:19+00:00,bbm_pertamina,https://mypertamina.id/fuels-harga,gagal,403,,,,,,,
+2026-11-09T17:12:19+00:00,bbm_shell,https://www.shell.co.id/in_id/pengendara-bermotor/bahan-bakar-shell/harga-bahan-bakar-shell.html,ok,200,5521,1,d379b45b43f82d13,True,True,arsip/halaman/bbm_shell/2026/11/2026-11-09_1712Z.html.gz,diizinkan robots.txt
+2026-11-09T17:12:19+00:00,emas_antam,https://www.logammulia.com/id/harga-emas-hari-ini,gagal,403,,,,,,,
