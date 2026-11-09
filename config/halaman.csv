@@ -1,4 +1,4 @@
-id,url,aktif,isi,kenapa_berguna
-bbm_pertamina,https://mypertamina.id/fuels-harga,1,Harga BBM Pertamina per provinsi (Pertamax/Pertamax Turbo/Dexlite/Pertamina Dex dll.),"Bensin & solar nonsubsidi masuk IHK dan biaya distribusi; berubah tiap awal bulan, beda per provinsi; riwayat resmi per provinsi tidak tersedia"
-bbm_shell,https://www.shell.co.id/in_id/pengendara-bermotor/bahan-bakar-shell/harga-bahan-bakar-shell.html,1,Harga BBM Shell per wilayah,Pembanding harga BBM swasta; ikut bergerak tiap awal bulan
-emas_antam,https://www.logammulia.com/id/harga-emas-hari-ini,1,Harga emas batangan Antam & buyback harian,"Emas perhiasan rutin jadi penyumbang inflasi; harga harian resmi hanya tampil hari itu"
+id,url,aktif,isi,kenapa_berguna,status_uji
+bbm_pertamina,https://mypertamina.id/fuels-harga,0,Harga BBM Pertamina per provinsi,"Bensin & solar nonsubsidi masuk IHK; berubah tiap awal bulan, beda per provinsi","2026-11-09: HTTP 403, situs menolak akses otomatis -> dinonaktifkan (tidak diakali)"
+bbm_shell,https://www.shell.co.id/in_id/pengendara-bermotor/bahan-bakar-shell/harga-bahan-bakar-shell.html,0,Harga BBM Shell per wilayah,Pembanding harga BBM swasta,"2026-11-09: HTTP 200 tetapi hanya kerangka 5 KB, angka dimuat JavaScript -> dinonaktifkan sampai ada sumber data di balik halaman"
+emas_antam,https://www.logammulia.com/id/harga-emas-hari-ini,0,Harga emas Antam & buyback harian,Emas perhiasan rutin jadi penyumbang inflasi,"2026-11-09: HTTP 403, situs menolak akses otomatis -> dinonaktifkan (tidak diakali)"
