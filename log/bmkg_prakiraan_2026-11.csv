@@ -1,3 +1,4 @@
 run_utc,sumber,status,diminta,berhasil,gagal,baris,berkas,catatan
 2026-11-09T17:11:42+00:00,bmkg_prakiraan,ok,5,5,0,92,arsip/bmkg_prakiraan/2026/11/2026-11-09_1711Z.csv.gz,
 2026-11-09T17:14:43+00:00,bmkg_prakiraan,sebagian,514,488,26,8994,arsip/bmkg_prakiraan/2026/11/2026-11-09_1714Z.csv.gz,11.72(HTTP 404); 91.01(HTTP 404); 91.02(HTTP 404); 91.04(HTTP 404); 91.07(HTTP 404); 91.08(HTTP 404); 91.09(HTTP 404); 91.12(HTTP 404); 91.13(HTTP 404); 91.14(HTTP 404); 91.16(HTTP 404); 91.17(HTTP 404); 91.18(HTTP 404); 91.21(HTTP 404); 91.22(HTTP 404); 91.23(HTTP 404); 91.24(HTTP 404); 91.25(HTTP 404); 91.26(HTTP 404); 91.27(HTTP 404); 91.28(HTTP 404); 92.04(data kosong); 92.05(data kosong); 92.09(data kosong); 92.10(data kosong); 92.71(data kosong)
+2026-11-09T17:28:32+00:00,bmkg_prakiraan,sebagian,26,23,3,433,arsip/bmkg_prakiraan/2026/11/2026-11-09_1728Z.csv.gz,96.02(HTTP 404); 96.03(HTTP 404); 96.04(HTTP 404)
