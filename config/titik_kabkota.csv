@@ -503,12 +503,12 @@ kode_kabkota,kabkota,provinsi,ibukota,adm4,desa,kecamatan,metode,adm4_cadangan
 92.01,KAB. SORONG,PAPUA BARAT,Sorong,92.01.43.2001,Maibo,Sorong,"kecamatan = ibukota, desa pertama",92.01.43.2002;92.01.01.1001
 92.02,KAB. MANOKWARI,PAPUA BARAT,Manokwari,92.02.12.1001,Manokwari Barat,Manokwari Barat,kelurahan pertama di kecamatan paling urban,92.02.12.1002;92.02.03.2001
 92.03,KAB. FAK FAK,PAPUA BARAT,Fakfak,92.03.01.1001,Fak Fak Selatan,Fak-Fak,"kecamatan = ibukota, kelurahan pertama",92.03.01.1002;92.03.02.2001
-96.02,Kabupaten Sorong Selatan,Papua Barat Daya,Teminabuan,96.02.01.1002,Kaibus,Teminabuan,"kode 2025: kecamatan = ibukota, kelurahan pertama",96.02.01.1003;96.02.02.2001
-96.03,Kabupaten Raja Ampat,Papua Barat Daya,Waisai,96.03.17.1001,Waisai,Kota Waisai,kode 2025: kecamatan & desa = ibukota,96.03.17.1002;96.03.01.2001
+96.02,Kabupaten Sorong Selatan,Papua Barat Daya,Teminabuan,96.02.01.1002,Kaibus,Teminabuan,"kode 2025: kecamatan = ibukota, kelurahan pertama + cadangan diperluas (2025 & 2022)",96.02.01.1003;96.02.01.2001;96.02.01.2004;96.02.01.2005;96.02.01.2006;96.02.02.2001;96.02.03.2001;96.02.04.2001;96.02.05.2001;96.02.06.2001;92.04.01.1005;92.04.01.1006;92.04.01.2004;92.04.01.2009;92.04.01.2010;92.04.01.2017
+96.03,Kabupaten Raja Ampat,Papua Barat Daya,Waisai,96.03.17.1001,Waisai,Kota Waisai,kode 2025: kecamatan & desa = ibukota + cadangan diperluas (2025 & 2022),96.03.17.1002;96.03.17.1003;96.03.17.1004;96.03.01.2001;96.03.02.2001;96.03.03.2001;96.03.04.2001;96.03.05.2001;96.03.06.2001;92.05.18.1001;92.05.18.1002;92.05.18.1003;92.05.18.1004;92.05.01.2001;92.05.02.2003;92.05.03.2004
 92.06,KAB. TELUK BINTUNI,PAPUA BARAT,Bintuni,92.06.01.1001,Bintuni Timur,Bintuni,"kecamatan = ibukota, kelurahan pertama",92.06.01.1002;92.06.02.2001
 92.07,KAB. TELUK WONDAMA,PAPUA BARAT,Rasiei,92.07.08.2001,Rasiei,Rasiei,kecamatan & desa = ibukota,92.07.08.2002;92.07.01.1001
 92.08,KAB. KAIMANA,PAPUA BARAT,Kaimana,92.08.01.1001,Kaimana Kota,Kaimana,kecamatan & desa = ibukota,92.08.01.1014;92.08.02.2001
-96.04,Kabupaten Tambrauw,Papua Barat Daya,Fef,96.04.01.2001,Fef,Fef,kode 2025: kecamatan & desa = ibukota,96.04.01.2002;96.04.02.2001
+96.04,Kabupaten Tambrauw,Papua Barat Daya,Fef,96.04.01.2001,Fef,Fef,kode 2025: kecamatan & desa = ibukota + cadangan diperluas (2025 & 2022),96.04.01.2002;96.04.01.2003;96.04.01.2004;96.04.01.2005;96.04.01.2006;96.04.02.2001;96.04.03.2001;96.04.04.2001;96.04.05.2001;96.04.06.2001;92.09.01.2001;92.09.01.2003;92.09.01.2004;92.09.01.2006;92.09.01.2010;92.09.01.2011
 96.05,Kabupaten Maybrat,Papua Barat Daya,Kumurkek,96.05.01.2001,Kumurkek,Aifat,kode 2025: desa = ibukota,96.05.01.2002;96.05.02.2001
 92.11,KAB. MANOKWARI SELATAN,PAPUA BARAT,Ransiki,92.11.01.2001,Ransiki,Ransiki,kecamatan & desa = ibukota,92.11.01.2002;92.11.02.2001
 92.12,KAB. PEGUNUNGAN ARFAK,PAPUA BARAT,Anggi,92.12.01.2001,Iraiweri,Anggi,"kecamatan = ibukota, desa pertama",92.12.01.2002;92.12.02.2001
