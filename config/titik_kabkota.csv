@@ -1,0 +1,515 @@
+kode_kabkota,kabkota,provinsi,ibukota,adm4,desa,kecamatan,metode,adm4_cadangan
+11.01,KAB. ACEH SELATAN,ACEH,Tapak Tuan,11.01.08.2001,Lhok Keutapang,Tapaktuan,"kecamatan = ibukota, desa pertama",11.01.08.2002;11.01.01.2001
+11.02,KAB. ACEH TENGGARA,ACEH,Kutacane,11.02.04.2001,Kota Kutacane,Babussalam,desa = ibukota,11.02.04.2002;11.02.01.2001
+11.03,KAB. ACEH TIMUR,ACEH,Idi Rayeuk,11.03.03.2001,Gampong Jawa,Idi Rayeuk,"kecamatan = ibukota, desa pertama",11.03.03.2002;11.03.01.2001
+11.04,KAB. ACEH TENGAH,ACEH,Takengon,11.04.01.2003,Delung Sekinel,Linge,desa pertama (cadangan terakhir),11.04.01.2005;11.04.02.2001
+11.05,KAB. ACEH BARAT,ACEH,Meulaboh,11.05.01.2001,Suak Indrapuri,Johan Pahwalan,desa pertama (cadangan terakhir),11.05.01.2002;11.05.02.2001
+11.06,KAB. ACEH BESAR,ACEH,Kota Jantho,11.06.15.2003,Jantho,Kota Jantho,kecamatan & desa = ibukota,11.06.15.2001;11.06.01.2001
+11.07,KAB. PIDIE,ACEH,Sigli,11.07.09.2001,Blang Paseh,Kota Sigli,"kecamatan = ibukota, desa pertama",11.07.09.2002;11.07.03.2001
+11.08,KAB. ACEH UTARA,ACEH,Lhoksukon,11.08.04.2001,Kuta Lhoksukon,Lhoksukon,"kecamatan = ibukota, desa pertama",11.08.04.2002;11.08.01.2001
+11.09,KAB. SIMEULUE,ACEH,Sinabang,11.09.04.2017,Sinabang,Simeulue Timur,desa = ibukota,11.09.04.2009;11.09.01.2007
+11.10,KAB. ACEH SINGKIL,ACEH,Singkil,11.10.04.2001,Pasar,Singkil,"kecamatan = ibukota, desa pertama",11.10.04.2002;11.10.01.2001
+11.11,KAB. BIREUEN,ACEH,Bireuen,11.11.01.2001,Keude Aceh,Samalanga,desa pertama (cadangan terakhir),11.11.01.2002;11.11.02.2018
+11.12,KAB. ACEH BARAT DAYA,ACEH,Blangpidie,11.12.01.2006,Guhang,Blang Pidie,"kecamatan = ibukota, desa pertama",11.12.01.2007;11.12.02.2001
+11.13,KAB. GAYO LUES,ACEH,Blang Kejeren,11.13.01.2001,Kota Blangkejeren,Blangkejeren,kecamatan & desa = ibukota,11.13.01.2002;11.13.02.2002
+11.14,KAB. ACEH JAYA,ACEH,Calang,11.14.01.2001,Keude Teunom,Teunom,desa pertama (cadangan terakhir),11.14.01.2002;11.14.02.2001
+11.15,KAB. NAGAN RAYA,ACEH,Suka Makmue,11.15.06.2001,Lueng Baro,Suka Makmue,"kecamatan = ibukota, desa pertama",11.15.06.2002;11.15.01.2003
+11.16,KAB. ACEH TAMIANG,ACEH,Karang Baru,11.16.03.2001,Kesehatan,Karang Baru,"kecamatan = ibukota, desa pertama",11.16.03.2002;11.16.01.2001
+11.17,KAB. BENER MERIAH,ACEH,Simpang Tiga Redelong,11.17.01.2001,Blang Rakal,Pintu Rime Gayo,desa pertama (cadangan terakhir),11.17.01.2002;11.17.02.2001
+11.18,KAB. PIDIE JAYA,ACEH,Meureudu,11.18.01.2002,Kota Meureudu,Meureudu,kecamatan & desa = ibukota,11.18.01.2001;11.18.02.2001
+11.71,KOTA BANDA ACEH,ACEH,Banda Aceh,11.71.01.2001,Kampung Baru,Baiturrahman,desa pertama (cadangan terakhir),11.71.01.2002;11.71.02.2001
+11.72,KOTA SABANG,ACEH,Sabang,11.72.01.2001,Iboih,Sukakarya,desa pertama (cadangan terakhir),11.72.01.2002;11.72.02.2001
+11.73,KOTA LHOKSEUMAWE,ACEH,Lhokseumawe,11.73.02.2005,Kota Lhokseumawe,Banda Sakti,desa = ibukota,11.73.02.2001;11.73.01.2002
+11.74,KOTA LANGSA,ACEH,Langsa,11.74.03.2001,Teungoh,Langsa Kota,"kecamatan = ibukota, desa pertama",11.74.03.2002;11.74.01.2007
+11.75,KOTA SUBULUSSALAM,ACEH,Subulussalam,11.75.01.2001,Subulussalam,Simpang Kiri,desa = ibukota,11.75.01.2002;11.75.02.2001
+12.01,KAB. TAPANULI TENGAH,SUMATERA UTARA,Pandan,12.01.03.1001,Pandan,Pandan,kecamatan & desa = ibukota,12.01.03.1002;12.01.01.1001
+12.02,KAB. TAPANULI UTARA,SUMATERA UTARA,Tarutung,12.02.01.1001,Partoli Toruan,Tarutung,"kecamatan = ibukota, kelurahan pertama",12.02.01.1002;12.02.02.2001
+12.03,KAB. TAPANULI SELATAN,SUMATERA UTARA,Sipirok,12.03.04.1001,Pasar Sipirok,Sipirok,"kecamatan = ibukota, kelurahan pertama",12.03.04.1003;12.03.01.1001
+12.04,KAB. NIAS,SUMATERA UTARA,Gido,12.04.06.2006,Hiliotalua,Gido,"kecamatan = ibukota, desa pertama",12.04.06.2008;12.04.05.2001
+12.05,KAB. LANGKAT,SUMATERA UTARA,Stabat,12.05.07.1004,Perdamaian,Stabat,"kecamatan = ibukota, kelurahan pertama",12.05.07.1005;12.05.01.1001
+12.06,KAB. KARO,SUMATERA UTARA,Kabanjahe,12.06.01.1009,Padang Mas,Kabanjahe,"kecamatan = ibukota, kelurahan pertama",12.06.01.1010;12.06.02.1006
+12.07,KAB. DELI SERDANG,SUMATERA UTARA,Lubuk Pakam,12.07.28.1007,"Lubuk Pakam I,II",Lubuk Pakam,"kecamatan = ibukota, kelurahan pertama",12.07.28.1008;12.07.01.2001
+12.08,KAB. SIMALUNGUN,SUMATERA UTARA,Raya,12.08.29.1001,Merek Raya,Raya,"kecamatan = ibukota, kelurahan pertama",12.08.29.1002;12.08.01.2001
+12.09,KAB. ASAHAN,SUMATERA UTARA,Kisaran,12.09.19.1006,Kisaran Kota,Kota Kisaran Barat,desa = ibukota,12.09.19.1001;12.09.08.2002
+12.10,KAB. LABUHANBATU,SUMATERA UTARA,Rantau Prapat,12.10.01.1004,Rantauprapat,Rantau Utara,desa = ibukota,12.10.01.1001;12.10.02.1001
+12.11,KAB. DAIRI,SUMATERA UTARA,Sidikalang,12.11.01.1010,Sidikalang,Sidikalang,kecamatan & desa = ibukota,12.11.01.1005;12.11.02.1007
+12.12,KAB. TOBA SAMOSIR,SUMATERA UTARA,,12.12.01.1034,Balige I,Balige,kelurahan pertama di kecamatan paling urban,12.12.01.1035;12.12.02.1001
+12.13,KAB. MANDAILING NATAL,SUMATERA UTARA,Panyabungan,12.13.01.1011,Kota Siantar,Panyabungan,"kecamatan = ibukota, kelurahan pertama",12.13.01.1014;12.13.02.1012
+12.14,KAB. NIAS SELATAN,SUMATERA UTARA,Teluk Dalam,12.14.06.1008,Pasar Teluk Dalam,Teluk Dalam,"kecamatan = ibukota, kelurahan pertama",12.14.06.2006;12.14.01.2002
+12.15,KAB. PAKPAK BHARAT,SUMATERA UTARA,Salak,12.15.03.2001,Salak I,Salak,"kecamatan = ibukota, desa pertama",12.15.03.2002;12.15.01.2001
+12.16,KAB. HUMBANG HASUNDUTAN,SUMATERA UTARA,Dolok Sanggul,12.16.06.1001,Pasar Dolok Sanggul,Dolok Sanggul,"kecamatan = ibukota, kelurahan pertama",12.16.06.2002;12.16.01.2002
+12.17,KAB. SAMOSIR,SUMATERA UTARA,Pangururan,12.17.08.1026,Pasar Pangururan,Pangururan,"kecamatan = ibukota, kelurahan pertama",12.17.08.1027;12.17.01.1016
+12.18,KAB. SERDANG BEDAGAI,SUMATERA UTARA,Sei Rampah,12.18.04.2006,Sei Rampah,Sei Rampah,kecamatan & desa = ibukota,12.18.04.2001;12.18.01.2001
+12.19,KAB. BATU BARA,SUMATERA UTARA,Limapuluh,12.19.04.1001,Lima Puluh Kota,Lima Puluh,kecamatan & desa = ibukota,12.19.04.2011;12.19.01.1001
+12.20,KAB. PADANG LAWAS UTARA,SUMATERA UTARA,Gunung Tua,12.20.04.1001,Pasar Gunung Tua,Padang Bolak,kelurahan pertama di kecamatan paling urban,12.20.04.2008;12.20.01.2001
+12.21,KAB. PADANG LAWAS,SUMATERA UTARA,Sibuhuan,12.21.07.1001,Pasar Sibuhuan,Barumun,kelurahan pertama di kecamatan paling urban,12.21.07.2002;12.21.01.2001
+12.22,KAB. LABUHANBATU SELATAN,SUMATERA UTARA,Pinang,12.22.01.1001,Kotapinang,Kotapinang,kelurahan pertama di kecamatan paling urban,12.22.01.2002;12.22.02.2001
+12.23,KAB. LABUHANBATU UTARA,SUMATERA UTARA,Aek Kanopan,12.23.01.1001,Aek Kanopan,Kualuh Hulu,desa = ibukota,12.23.01.1002;12.23.02.1001
+12.24,KAB. NIAS UTARA,SUMATERA UTARA,Lotu,12.24.01.2001,Hilidundra,Lotu,"kecamatan = ibukota, desa pertama",12.24.01.2002;12.24.02.2001
+12.25,KAB. NIAS BARAT,SUMATERA UTARA,Lahomi,12.25.01.2001,Sisobaoho,Lahomi,"kecamatan = ibukota, desa pertama",12.25.01.2002;12.25.02.2001
+12.71,KOTA MEDAN,SUMATERA UTARA,Medan,12.71.01.1001,Pasar Baru,Medan Kota,"kecamatan = ibukota, kelurahan pertama",12.71.01.1002;12.71.02.1001
+12.72,KOTA PEMATANGSIANTAR,SUMATERA UTARA,Pematangsiantar,12.72.02.1001,Dwikora,Siantar Barat,kelurahan pertama di kecamatan paling urban,12.72.02.1002;12.72.01.1001
+12.73,KOTA SIBOLGA,SUMATERA UTARA,Sibolga,12.73.02.1001,Kota Baringin,Sibolga Kota,"kecamatan = ibukota, kelurahan pertama",12.73.02.1002;12.73.01.1001
+12.74,KOTA TANJUNG BALAI,SUMATERA UTARA,Tanjungbalai,12.74.01.1001,Tanjung Balai Kota I,Tanjung Balai Selatan,kelurahan pertama di kecamatan paling urban,12.74.01.1002;12.74.02.1001
+12.75,KOTA BINJAI,SUMATERA UTARA,Binjai,12.75.02.1006,Binjai,Binjai Kota,kecamatan & desa = ibukota,12.75.02.1001;12.75.01.1001
+12.76,KOTA TEBING TINGGI,SUMATERA UTARA,Tebing Tinggi,12.76.05.1001,Mandailing,Tebing Tinggi Kota,"kecamatan = ibukota, kelurahan pertama",12.76.05.1002;12.76.01.1001
+12.77,KOTA PADANG SIDEMPUAN,SUMATERA UTARA,Padangsidimpuan,12.77.01.1001,Wek I,Padangsidimpuan Utara,kelurahan pertama di kecamatan paling urban,12.77.01.1002;12.77.02.1001
+12.78,KOTA GUNUNGSITOLI,SUMATERA UTARA,Gunungsitoli,12.78.01.1030,Pasar Gunungsitoli,Gunungsitoli,"kecamatan = ibukota, kelurahan pertama",12.78.01.1031;12.78.02.2001
+13.01,KAB. PESISIR SELATAN,SUMATERA BARAT,Painan,13.01.05.2001,Painan,IV Jurai,desa = ibukota,13.01.05.2002;13.01.01.2001
+13.02,KAB. SOLOK,SUMATERA BARAT,Solok,13.02.03.2001,Lolo,Pantai Cermin,desa pertama (cadangan terakhir),13.02.03.2002;13.02.04.2001
+13.03,KAB. SIJUNJUNG,SUMATERA BARAT,Muaro Sijunjung,13.03.03.2001,Timbulun,Tanjung Gadang,desa pertama (cadangan terakhir),13.03.03.2002;13.03.04.2001
+13.04,KAB. TANAH DATAR,SUMATERA BARAT,Batusangkar,13.04.01.2001,Tambangan,X Koto,desa pertama (cadangan terakhir),13.04.01.2002;13.04.02.2001
+13.05,KAB. PADANG PARIAMAN,SUMATERA BARAT,Parit Malintang,13.05.17.2004,Parit Malintang,Enam Lingkung,desa = ibukota,13.05.17.2001;13.05.01.2001
+13.06,KAB. AGAM,SUMATERA BARAT,Lubuk Basung,13.06.02.2001,Lubuk Basung,Lubuk Basung,kecamatan & desa = ibukota,13.06.02.2002;13.06.01.2001
+13.07,KAB. LIMA PULUH KOTA,SUMATERA BARAT,Sarilamak,13.07.05.2007,Sarilamak,Harau,desa = ibukota,13.07.05.2001;13.07.01.2001
+13.08,KAB. PASAMAN,SUMATERA BARAT,Lubuk Sikaping,13.08.05.2001,Tanjuang Baringin,Lubuk Sikaping,"kecamatan = ibukota, desa pertama",13.08.05.2002;13.08.04.2001
+13.09,KAB. KEPULAUAN MENTAWAI,SUMATERA BARAT,Tuapejat,13.09.08.2003,Tuapejat,Sipora Utara,desa = ibukota,13.09.08.2001;13.09.01.2007
+13.10,KAB. DHARMASRAYA,SUMATERA BARAT,Pulau Punjung,13.10.02.2001,Sungai Dareh,Pulau Punjung,"kecamatan = ibukota, desa pertama",13.10.02.2002;13.10.01.2002
+13.11,KAB. SOLOK SELATAN,SUMATERA BARAT,Padang Aro,13.11.01.2001,Lubuk Gadang,Sangir,desa pertama (cadangan terakhir),13.11.01.2002;13.11.02.2001
+13.12,KAB. PASAMAN BARAT,SUMATERA BARAT,Simpang Ampek,13.12.01.2001,Aia Bangih,Sungaiberemas,desa pertama (cadangan terakhir),13.12.02.2001
+13.71,KOTA PADANG,SUMATERA BARAT,Padang,13.71.06.1001,Cangkeh Nan XX,Lubuk Begalung,kelurahan pertama di kecamatan paling urban,13.71.06.1002;13.71.01.1001
+13.72,KOTA SOLOK,SUMATERA BARAT,Solok,13.72.01.1001,Tanah Garam,Lubuk Sikarah,kelurahan pertama di kecamatan paling urban,13.72.01.1002;13.72.02.1001
+13.73,KOTA SAWAHLUNTO,SUMATERA BARAT,Sawahlunto,13.73.01.1001,Aur Mulio,Lembah Segar,kelurahan pertama di kecamatan paling urban,13.73.01.1002;13.73.02.1001
+13.74,KOTA PADANG PANJANG,SUMATERA BARAT,Padangpanjang,13.74.01.1001,Ganting,Padang Panjang Timur,kelurahan pertama di kecamatan paling urban,13.74.01.1002;13.74.02.1001
+13.75,KOTA BUKITTINGGI,SUMATERA BARAT,Bukittinggi,13.75.02.1001,Campago Guguk Bulek,Mandiangin K. Selayan,kelurahan pertama di kecamatan paling urban,13.75.02.1002;13.75.01.1001
+13.76,KOTA PAYAKUMBUH,SUMATERA BARAT,Payakumbuh,13.76.01.1002,Pakan Sinayan,Payakumbuh Barat,kelurahan pertama di kecamatan paling urban,13.76.01.1003;13.76.02.1002
+13.77,KOTA PARIAMAN,SUMATERA BARAT,Pariaman,13.77.01.1001,Karan Aur,Pariaman Tengah,kelurahan pertama di kecamatan paling urban,13.77.01.1002;13.77.02.2005
+14.01,KAB. KAMPAR,RIAU,Bangkinang,14.01.01.1011,Bangkinang,Bangkinang Kota,kecamatan & desa = ibukota,14.01.01.1013;14.01.02.1027
+14.02,KAB. INDRAGIRI HULU,RIAU,Rengat,14.02.01.1004,Kampung Dagang,Rengat,"kecamatan = ibukota, kelurahan pertama",14.02.01.1006;14.02.02.1009
+14.03,KAB. BENGKALIS,RIAU,Bengkalis,14.03.01.1001,Kota Bengkalis,Bengkalis,kecamatan & desa = ibukota,14.03.01.1002;14.03.02.2001
+14.04,KAB. INDRAGIRI HILIR,RIAU,Tembilahan,14.04.04.1001,Tembilahan Kota,Tembilahan,kecamatan & desa = ibukota,14.04.04.1002;14.04.01.1001
+14.05,KAB. PELALAWAN,RIAU,Pangkalan Kerinci,14.05.02.1008,Pangkalan Kerinci Kota,Pangkalan Kerinci,kecamatan & desa = ibukota,14.05.02.1007;14.05.01.1010
+14.06,KAB. ROKAN HULU,RIAU,Pasir Pengaraian,14.06.01.1001,Ujung Batu,Ujung Batu,kelurahan pertama di kecamatan paling urban,14.06.01.2002;14.06.02.1001
+14.07,KAB. ROKAN HILIR,RIAU,Bagansiapiapi,14.07.02.1011,Bagan Punak,Bangko,kelurahan pertama di kecamatan paling urban,14.07.02.1012;14.07.01.1010
+14.08,KAB. SIAK,RIAU,Siak Sri Indrapura,14.08.10.1001,Simpang Belutu,Kandis,kelurahan pertama di kecamatan paling urban,14.08.10.1002;14.08.01.1001
+14.09,KAB. KUANTAN SINGINGI,RIAU,Taluk Kuantan,14.09.02.1016,Pasar Teluk,Kuantan Tengah,kelurahan pertama di kecamatan paling urban,14.09.02.1018;14.09.01.1012
+14.10,KAB. KEPULAUAN MERANTI,RIAU,Selatpanjang,14.10.01.1001,Selatpanjang Kota,Tebing Tinggi,desa = ibukota,14.10.01.1002;14.10.02.2001
+14.71,KOTA PEKANBARU,RIAU,Pekanbaru,14.71.02.1001,Simpang Empat,Pekanbaru Kota,"kecamatan = ibukota, kelurahan pertama",14.71.02.1002;14.71.01.1002
+14.72,KOTA DUMAI,RIAU,Dumai,14.72.06.1003,Dumai Kota,Dumai Kota,kecamatan & desa = ibukota,14.72.06.1001;14.72.01.1003
+15.01,KAB. KERINCI,JAMBI,Siulak,15.01.16.2001,Siulak Gedang,Siulak,"kecamatan = ibukota, desa pertama",15.01.16.2004;15.01.01.1004
+15.02,KAB. MERANGIN,JAMBI,Bangko,15.02.02.1009,Pasar Atas,Bangko,"kecamatan = ibukota, kelurahan pertama",15.02.02.1010;15.02.01.2001
+15.03,KAB. SAROLANGUN,JAMBI,Sarolangun,15.03.03.1001,Dusun Sarolangun,Sarolangun,"kecamatan = ibukota, kelurahan pertama",15.03.03.1015;15.03.01.2001
+15.04,KAB. BATANGHARI,JAMBI,Muara Bulian,15.04.03.1001,Muara Bulian,Muara Bulian,kecamatan & desa = ibukota,15.04.03.1002;15.04.01.1001
+15.05,KAB. MUARO JAMBI,JAMBI,Sengeti,15.05.02.1010,Sengeti,Sekernan,desa = ibukota,15.05.02.2001;15.05.01.1003
+15.06,KAB. TANJUNG JABUNG BARAT,JAMBI,Kuala Tungkal,15.06.02.1004,Tungkal Empat Kota,Tungkal Ilir,kelurahan pertama di kecamatan paling urban,15.06.02.1005;15.06.01.1005
+15.07,KAB. TANJUNG JABUNG TIMUR,JAMBI,Muara Sabak,15.07.07.1001,Kampung Singkep,Muara Sabak Barat,kelurahan pertama di kecamatan paling urban,15.07.07.1002;15.07.01.1010
+15.08,KAB. BUNGO,JAMBI,Muara Bungo,15.08.03.1006,Tanjung Gedang,Pasar Muaro Bungo,kelurahan pertama di kecamatan paling urban,15.08.03.1007;15.08.01.2001
+15.09,KAB. TEBO,JAMBI,Muara Tebo,15.09.01.1001,Matebo,Tebo Tengah,kelurahan pertama di kecamatan paling urban,15.09.01.1002;15.09.02.1001
+15.71,KOTA JAMBI,JAMBI,Jambi,15.71.03.1001,Sijenjang,Jambi Timur,kelurahan pertama di kecamatan paling urban,15.71.03.1002;15.71.01.1001
+15.72,KOTA SUNGAI PENUH,JAMBI,Sungaipenuh,15.72.01.1001,Sungai Penuh,Sungai Penuh,kecamatan & desa = ibukota,15.72.01.1003;15.72.02.2001
+16.01,KAB. OGAN KOMERING ULU,SUMATERA SELATAN,Baturaja,16.01.14.1001,Baturaja Lama,Baturaja Timur,kelurahan pertama di kecamatan paling urban,16.01.14.1003;16.01.07.2001
+16.02,KAB. OGAN KOMERING ILIR,SUMATERA SELATAN,Kayu Agung,16.02.05.1002,Kayuagung,Kayu Agung,kecamatan & desa = ibukota,16.02.05.1001;16.02.02.1011
+16.03,KAB. MUARA ENIM,SUMATERA SELATAN,Muara Enim,16.03.02.1010,Muara Enim,Muara Enim,kecamatan & desa = ibukota,16.03.02.1006;16.03.01.2011
+16.04,KAB. LAHAT,SUMATERA SELATAN,Lahat,16.04.10.1031,Lahat Tengah,Lahat,"kecamatan = ibukota, kelurahan pertama",16.04.10.1032;16.04.01.2001
+16.05,KAB. MUSI RAWAS,SUMATERA SELATAN,Muara Beliti Baru,16.05.09.2002,Muara Beliti Baru,Muara Beliti,desa = ibukota,16.05.09.1003;16.05.01.1001
+16.06,KAB. MUSI BANYUASIN,SUMATERA SELATAN,Sekayu,16.06.01.1009,Kayu Ara,Sekayu,"kecamatan = ibukota, kelurahan pertama",16.06.01.1010;16.06.02.2001
+16.07,KAB. BANYUASIN,SUMATERA SELATAN,Pangkalan Balai,16.07.03.1012,Pangkalan Balai,Banyuasin III,desa = ibukota,16.07.03.1008;16.07.01.1016
+16.08,KAB. OGAN KOMERING ULUTIMUR,SUMATERA SELATAN,Martapura,16.08.01.1007,Dusun Martapura,Martapura,"kecamatan = ibukota, kelurahan pertama",16.08.01.1008;16.08.02.2001
+16.09,KAB. OGAN KOMERING ULUSELATAN,SUMATERA SELATAN,Muaradua,16.09.01.1013,Batu Belang Jaya,Muara Dua,"kecamatan = ibukota, kelurahan pertama",16.09.01.1014;16.09.02.2012
+16.10,KAB. OGAN ILIR,SUMATERA SELATAN,Indralaya,16.10.04.1030,Indralaya Raya,Indralaya,"kecamatan = ibukota, kelurahan pertama",16.10.04.1031;16.10.01.1011
+16.11,KAB. EMPAT LAWANG,SUMATERA SELATAN,Tebing Tinggi,16.11.04.1010,Kupang,Tebing Tinggi,"kecamatan = ibukota, kelurahan pertama",16.11.04.1013;16.11.01.2001
+16.12,KAB. PENUKAL ABAB LEMATANGILIR,SUMATERA SELATAN,Talang Ubi,16.12.01.1003,Talang Ubi Timur,Talang Ubi,"kecamatan = ibukota, kelurahan pertama",16.12.01.1010;16.12.02.2001
+16.13,KAB. MUSI RAWAS UTARA,SUMATERA SELATAN,Rupit,16.13.01.1007,Muara Rupit,Rupit,"kecamatan = ibukota, kelurahan pertama",16.13.01.2001;16.13.02.1005
+16.71,KOTA PALEMBANG,SUMATERA SELATAN,Palembang,16.71.05.1001,18 Ilir,Ilir Timur I,kelurahan pertama di kecamatan paling urban,16.71.05.1002;16.71.01.1001
+16.72,KOTA PAGAR ALAM,SUMATERA SELATAN,Pagar Alam,16.72.01.1005,Pagar Alam,Pagar Alam Utara,desa = ibukota,16.72.01.1001;16.72.02.1003
+16.73,KOTA LUBUK LINGGAU,SUMATERA SELATAN,Lubuklinggau,16.73.02.1001,Kayu Ara,Lubuk Linggau Barat I,kelurahan pertama di kecamatan paling urban,16.73.02.1002;16.73.01.1001
+16.74,KOTA PRABUMULIH,SUMATERA SELATAN,Kota Prabumulih,16.74.01.1001,Prabumulih,Prabumulih Barat,desa = ibukota,16.74.01.1007;16.74.02.1003
+17.01,KAB. BENGKULU SELATAN,BENGKULU,Manna,17.01.04.1022,Kayu Kunyit,Manna,"kecamatan = ibukota, kelurahan pertama",17.01.04.2001;17.01.01.2001
+17.02,KAB. REJANG LEBONG,BENGKULU,Curup,17.02.09.1012,Dwi Tunggal,Curup,"kecamatan = ibukota, kelurahan pertama",17.02.09.1013;17.02.06.1004
+17.03,KAB. BENGKULU UTARA,BENGKULU,Arga Makmur,17.03.07.1026,Purwodadi,Kota Arga Makmur,"kecamatan = ibukota, kelurahan pertama",17.03.07.1027;17.03.01.2001
+17.04,KAB. KAUR,BENGKULU,Bintuhan,17.04.03.1010,Simpang Tiga,Kaur Utara,kelurahan pertama di kecamatan paling urban,17.04.03.2001;17.04.01.2001
+17.05,KAB. SELUMA,BENGKULU,Tais,17.05.02.1009,Lubuk Kebur,Seluma,kelurahan pertama di kecamatan paling urban,17.05.02.1010;17.05.01.1001
+17.06,KAB. MUKO MUKO,BENGKULU,Mukomuko,17.06.02.1009,Pasar Muko-Muko,Kota Mukomuko,"kecamatan = ibukota, kelurahan pertama",17.06.02.1017;17.06.01.2005
+17.07,KAB. LEBONG,BENGKULU,Muara Aman,17.07.04.1002,Tes,Lebong Selatan,kelurahan pertama di kecamatan paling urban,17.07.04.1003;17.07.01.1004
+17.08,KAB. KEPAHIANG,BENGKULU,Kepahiang,17.08.04.1003,Pensiunan,Kepahiang,"kecamatan = ibukota, kelurahan pertama",17.08.04.1004;17.08.01.1007
+17.09,KAB. BENGKULU TENGAH,BENGKULU,Karang Tinggi,17.09.01.2009,Karang Tinggi,Karang Tinggi,kecamatan & desa = ibukota,17.09.01.2001;17.09.02.2001
+17.71,KOTA BENGKULU,BENGKULU,Bengkulu,17.71.03.1001,Berkas,Teluk Segara,kelurahan pertama di kecamatan paling urban,17.71.03.1002;17.71.01.1001
+18.01,KAB. LAMPUNG SELATAN,LAMPUNG,Kalianda,18.01.06.1007,Kalianda,Kalianda,kecamatan & desa = ibukota,18.01.06.1006;18.01.04.2001
+18.02,KAB. LAMPUNG TENGAH,LAMPUNG,Gunung Sugih,18.02.04.1005,Gunung Sugih,Gunung Sugih,kecamatan & desa = ibukota,18.02.04.1006;18.02.01.2001
+18.03,KAB. LAMPUNG UTARA,LAMPUNG,Kotabumi,18.03.02.1001,Kotabumi Udik,Kotabumi,"kecamatan = ibukota, kelurahan pertama",18.03.02.1002;18.03.01.1001
+18.04,KAB. LAMPUNG BARAT,LAMPUNG,Liwa,18.04.04.1001,Pasar Liwa,Balik Bukit,kelurahan pertama di kecamatan paling urban,18.04.04.1003;18.04.05.1016
+18.05,KAB. TULANG BAWANG,LAMPUNG,Menggala,18.05.02.1011,Menggala Kota,Menggala,kecamatan & desa = ibukota,18.05.02.1008;18.05.06.2001
+18.06,KAB. TANGGAMUS,LAMPUNG,Kota Agung,18.06.01.2027,Kota Agung,Kota Agung,kecamatan & desa = ibukota,18.06.01.1001;18.06.02.2012
+18.07,KAB. LAMPUNG TIMUR,LAMPUNG,Sukadana,18.07.01.2001,Sukadana,Sukadana,kecamatan & desa = ibukota,18.07.01.2002;18.07.02.2001
+18.08,KAB. WAY KANAN,LAMPUNG,Blambangan Umpu,18.08.01.1005,Blambangan Umpu,Blambangan Umpu,kecamatan & desa = ibukota,18.08.01.2001;18.08.02.1004
+18.09,KAB. PESAWARAN,LAMPUNG,Gedong Tataan,18.09.01.2001,Padang Ratu,Gedong Tataan,"kecamatan = ibukota, desa pertama",18.09.01.2002;18.09.02.2001
+18.10,KAB. PRINGSEWU,LAMPUNG,Pringsewu,18.10.01.1001,Fajaresuk,Pringsewu,"kecamatan = ibukota, kelurahan pertama",18.10.01.1002;18.10.02.2001
+18.11,KAB. MESUJI,LAMPUNG,Mesuji,18.11.01.2001,Wiralaga I,Mesuji,"kecamatan = ibukota, desa pertama",18.11.01.2002;18.11.02.2001
+18.12,KAB. TULANG BAWANG BARAT,LAMPUNG,Tulang Bawang Tengah,18.12.01.1001,Mulyo Asri,Tulang Bawang Tengah,"kecamatan = ibukota, kelurahan pertama",18.12.01.1007;18.12.02.1001
+18.13,KAB. PESISIR BARAT,LAMPUNG,Krui,18.13.01.1005,Pasar Krui,Pesisir Tengah,kelurahan pertama di kecamatan paling urban,18.13.01.1008;18.13.02.2001
+18.71,KOTA BANDAR LAMPUNG,LAMPUNG,Bandar Lampung,18.71.13.1001,Sumber Rejo,Kemiling,kelurahan pertama di kecamatan paling urban,18.71.13.1003;18.71.01.1003
+18.72,KOTA METRO,LAMPUNG,Metro,18.72.01.1001,Metro,Metro Pusat,desa = ibukota,18.72.01.1002;18.72.02.1001
+19.01,KAB. BANGKA,KEPULAUAN BANGKA BELITUNG,Sungai Liat,19.01.01.1001,Sungailiat,Sungailiat,kecamatan & desa = ibukota,19.01.01.1002;19.01.02.1001
+19.02,KAB. BELITUNG,KEPULAUAN BANGKA BELITUNG,Tanjung Pandan,19.02.01.1001,Kota,Tanjung Pandan,"kecamatan = ibukota, kelurahan pertama",19.02.01.1002;19.02.02.2001
+19.03,KAB. BANGKA SELATAN,KEPULAUAN BANGKA BELITUNG,Toboali,19.03.01.1001,Toboali,Toboali,kecamatan & desa = ibukota,19.03.01.1002;19.03.02.2001
+19.04,KAB. BANGKA TENGAH,KEPULAUAN BANGKA BELITUNG,Koba,19.04.01.1001,Koba,Koba,kecamatan & desa = ibukota,19.04.01.1002;19.04.02.1001
+19.05,KAB. BANGKA BARAT,KEPULAUAN BANGKA BELITUNG,Muntok,19.05.01.1001,Tanjung,Muntok,"kecamatan = ibukota, kelurahan pertama",19.05.01.1002;19.05.02.2001
+19.06,KAB. BELITUNG TIMUR,KEPULAUAN BANGKA BELITUNG,Manggar,19.06.01.2001,Lalang Jaya,Manggar,"kecamatan = ibukota, desa pertama",19.06.01.2002;19.06.02.2001
+19.71,KOTA PANGKAL PINANG,KEPULAUAN BANGKA BELITUNG,Pangkalpinang,19.71.04.1001,Pintu Air,Rangkui,kelurahan pertama di kecamatan paling urban,19.71.04.1002;19.71.01.1004
+21.01,KAB. BINTAN,KEPULAUAN RIAU,Bandar Seri Bentan,21.01.06.1008,Kijang Kota,Bintan Timur,kelurahan pertama di kecamatan paling urban,21.01.06.1009;21.01.04.1005
+21.02,KAB. KARIMUN,KEPULAUAN RIAU,Tanjung Balai Karimun,21.02.03.1001,Tanjungbalai,Karimun,kelurahan pertama di kecamatan paling urban,21.02.03.1002;21.02.01.1003
+21.03,KAB. NATUNA,KEPULAUAN RIAU,Ranai,21.03.07.1011,Ranai Kota,Bunguran Timur,desa = ibukota,21.03.07.1016;21.03.04.1003
+21.04,KAB. LINGGA,KEPULAUAN RIAU,Daik,21.04.02.1010,Daik,Lingga,desa = ibukota,21.04.02.2001;21.04.01.1001
+21.05,KAB. KEPULAUAN ANAMBAS,KEPULAUAN RIAU,Tarempa,21.05.01.1001,Terempa,Siantan,kelurahan pertama di kecamatan paling urban,21.05.01.2002;21.05.02.2002
+21.71,KOTA BATAM,KEPULAUAN RIAU,Batam,21.71.10.1001,Baloi Permai,Batam Kota,"kecamatan = ibukota, kelurahan pertama",21.71.10.1002;21.71.01.1002
+21.72,KOTA TANJUNG PINANG,KEPULAUAN RIAU,Tanjungpinang,21.72.03.1001,Tanjung Pinang Kota,Tanjung Pinang Kota,kecamatan & desa = ibukota,21.72.03.1003;21.72.01.1001
+31.01,KAB. ADM. KEP. SERIBU,DKI JAKARTA,Pulau Pramuka,31.01.01.1001,Pulau Panggang,Kepulauan Seribu Utara,kelurahan pertama di kecamatan paling urban,31.01.01.1002;31.01.02.1001
+31.71,KOTA ADM. JAKARTA PUSAT,DKI JAKARTA,Menteng,31.71.06.1001,Menteng,Menteng,kecamatan & desa = ibukota,31.71.06.1002;31.71.01.1001
+31.72,KOTA ADM. JAKARTA UTARA,DKI JAKARTA,Koja,31.72.03.1001,Koja,Koja,kecamatan & desa = ibukota,31.72.03.1002;31.72.01.1001
+31.73,KOTA ADM. JAKARTA BARAT,DKI JAKARTA,Kembangan,31.73.08.1001,Kembangan Utara,Kembangan,"kecamatan = ibukota, kelurahan pertama",31.73.08.1002;31.73.01.1001
+31.74,KOTA ADM. JAKARTA SELATAN,DKI JAKARTA,Kebayoran Baru,31.74.07.1001,Melawai,Kebayoran Baru,"kecamatan = ibukota, kelurahan pertama",31.74.07.1002;31.74.01.1001
+31.75,KOTA ADM. JAKARTA TIMUR,DKI JAKARTA,Cakung,31.75.06.1001,Jatinegara,Cakung,"kecamatan = ibukota, kelurahan pertama",31.75.06.1002;31.75.01.1001
+32.01,KAB. BOGOR,JAWA BARAT,Bogor,32.01.01.1001,Pondok Rajeg,Cibinong,kelurahan pertama di kecamatan paling urban,32.01.01.1002;32.01.02.2001
+32.02,KAB. SUKABUMI,JAWA BARAT,Sukabumi,32.02.32.2001,Parungseah,Sukabumi,"kecamatan = ibukota, desa pertama",32.02.32.2002;32.02.01.1001
+32.03,KAB. CIANJUR,JAWA BARAT,Cianjur,32.03.01.1006,Pamoyanan,Cianjur,"kecamatan = ibukota, kelurahan pertama",32.03.01.1007;32.03.02.2002
+32.04,KAB. BANDUNG,JAWA BARAT,Bandung,32.04.32.1001,Baleendah,Baleendah,kelurahan pertama di kecamatan paling urban,32.04.32.1002;32.04.05.2001
+32.05,KAB. GARUT,JAWA BARAT,Tarogong Kidul,32.05.05.1001,Pataruman,Tarogong Kidul,"kecamatan = ibukota, kelurahan pertama",32.05.05.1002;32.05.01.1001
+32.06,KAB. TASIKMALAYA,JAWA BARAT,Tasikmalaya,32.06.01.2001,Ciheras,Cipatujah,desa pertama (cadangan terakhir),32.06.01.2002;32.06.02.2001
+32.07,KAB. CIAMIS,JAWA BARAT,Ciamis,32.07.01.1001,Ciamis,Ciamis,kecamatan & desa = ibukota,32.07.01.1002;32.07.02.2001
+32.08,KAB. KUNINGAN,JAWA BARAT,Kuningan,32.08.09.1002,Kuningan,Kuningan,kecamatan & desa = ibukota,32.08.09.1001;32.08.01.2001
+32.09,KAB. CIREBON,JAWA BARAT,Cirebon,32.09.15.1003,Babakan,Sumber,kelurahan pertama di kecamatan paling urban,32.09.15.1004;32.09.01.2008
+32.10,KAB. MAJALENGKA,JAWA BARAT,Majalengka,32.10.07.1001,Munjul,Majalengka,"kecamatan = ibukota, kelurahan pertama",32.10.07.1002;32.10.01.2001
+32.11,KAB. SUMEDANG,JAWA BARAT,Sumedang Utara,32.11.18.1001,Kotakaler,Sumedang Utara,"kecamatan = ibukota, kelurahan pertama",32.11.18.1002;32.11.01.2001
+32.12,KAB. INDRAMAYU,JAWA BARAT,Indramayu,32.12.15.1001,Bojongsari,Indramayu,"kecamatan = ibukota, kelurahan pertama",32.12.15.1002;32.12.01.2007
+32.13,KAB. SUBANG,JAWA BARAT,Subang,32.13.03.1001,Parung,Subang,"kecamatan = ibukota, kelurahan pertama",32.13.03.1002;32.13.01.2003
+32.14,KAB. PURWAKARTA,JAWA BARAT,Purwakarta,32.14.01.1001,Nagri Kidul,Purwakarta,"kecamatan = ibukota, kelurahan pertama",32.14.01.1002;32.14.02.2001
+32.15,KAB. KARAWANG,JAWA BARAT,Karawang Barat,32.15.01.1001,Karawang Kulon,Karawang Barat,"kecamatan = ibukota, kelurahan pertama",32.15.01.1003;32.15.02.2001
+32.16,KAB. BEKASI,JAWA BARAT,Bekasi,32.16.02.1006,Bahagia,Babelan,kelurahan pertama di kecamatan paling urban,32.16.02.1007;32.16.01.2001
+32.17,KAB. BANDUNG BARAT,JAWA BARAT,Ngamprah,32.17.06.2001,Ngamprah,Ngamprah,kecamatan & desa = ibukota,32.17.06.2002;32.17.01.2001
+32.18,KAB. PANGANDARAN,JAWA BARAT,Parigi,32.18.01.2001,Parigi,Parigi,kecamatan & desa = ibukota,32.18.01.2002;32.18.02.2001
+32.71,KOTA BOGOR,JAWA BARAT,Bogor,32.71.01.1001,Batu Tulis,Bogor Selatan,kelurahan pertama di kecamatan paling urban,32.71.01.1002;32.71.02.1001
+32.72,KOTA SUKABUMI,JAWA BARAT,Sukabumi,32.72.02.1001,Cikole,Cikole,kelurahan pertama di kecamatan paling urban,32.72.02.1002;32.72.01.1001
+32.73,KOTA BANDUNG,JAWA BARAT,Bandung,32.73.12.1001,Gumuruh,Batununggal,kelurahan pertama di kecamatan paling urban,32.73.12.1002;32.73.01.1001
+32.74,KOTA CIREBON,JAWA BARAT,Cirebon,32.74.03.1001,Kalijaga,Harjamukti,kelurahan pertama di kecamatan paling urban,32.74.03.1002;32.74.01.1001
+32.75,KOTA BEKASI,JAWA BARAT,Bekasi,32.75.03.1001,Kaliabang Tengah,Bekasi Utara,kelurahan pertama di kecamatan paling urban,32.75.03.1002;32.75.01.1001
+32.76,KOTA DEPOK,JAWA BARAT,Depok,32.76.01.1006,Depok,Pancoran Mas,desa = ibukota,32.76.01.1007;32.76.02.1007
+32.77,KOTA CIMAHI,JAWA BARAT,Cimahi,32.77.02.1006,Cimahi,Cimahi Tengah,desa = ibukota,32.77.02.1001;32.77.01.1001
+32.78,KOTA TASIKMALAYA,JAWA BARAT,Tasikmalaya,32.78.05.1001,Kersamenak,Kawalu,kelurahan pertama di kecamatan paling urban,32.78.05.1002;32.78.01.1001
+32.79,KOTA BANJAR,JAWA BARAT,Martapura,32.79.01.1001,Banjar,Banjar,kelurahan pertama di kecamatan paling urban,32.79.01.1002;32.79.02.1001
+33.01,KAB. CILACAP,JAWA TENGAH,Cilacap,33.01.21.1002,Cilacap,Cilacap Selatan,desa = ibukota,33.01.21.1001;33.01.01.2001
+33.02,KAB. BANYUMAS,JAWA TENGAH,Purwokerto,33.02.24.1001,Karangklesem,Purwokerto Selatan,kelurahan pertama di kecamatan paling urban,33.02.24.1002;33.02.01.2001
+33.03,KAB. PURBALINGGA,JAWA TENGAH,Purbalingga,33.03.05.1001,Bojong,Purbalingga,"kecamatan = ibukota, kelurahan pertama",33.03.05.1003;33.03.01.2001
+33.04,KAB. BANJARNEGARA,JAWA TENGAH,Banjarnegara,33.04.06.1001,Argasoka,Banjarnegara,"kecamatan = ibukota, kelurahan pertama",33.04.06.1006;33.04.01.2001
+33.05,KAB. KEBUMEN,JAWA TENGAH,Kebumen,33.05.12.1024,Kebumen,Kebumen,kecamatan & desa = ibukota,33.05.12.1010;33.05.01.2001
+33.06,KAB. PURWOREJO,JAWA TENGAH,Purworejo,33.06.06.1017,Purworejo,Purworejo,kecamatan & desa = ibukota,33.06.06.1007;33.06.01.2001
+33.07,KAB. WONOSOBO,JAWA TENGAH,Wonosobo,33.07.09.1002,Tawangsari,Wonosobo,"kecamatan = ibukota, kelurahan pertama",33.07.09.1003;33.07.01.1007
+33.08,KAB. MAGELANG,JAWA TENGAH,Magelang,33.08.09.1003,Mendut,Mungkid,kelurahan pertama di kecamatan paling urban,33.08.09.1004;33.08.01.2001
+33.09,KAB. BOYOLALI,JAWA TENGAH,Boyolali,33.09.05.1001,Pulisen,Boyolali,"kecamatan = ibukota, kelurahan pertama",33.09.05.1002;33.09.01.2001
+33.10,KAB. KLATEN,JAWA TENGAH,Klaten,33.10.25.1003,Klaten,Klaten Tengah,desa = ibukota,33.10.25.1001;33.10.01.2001
+33.11,KAB. SUKOHARJO,JAWA TENGAH,Sukoharjo,33.11.04.1012,Sukoharjo,Sukoharjo,kecamatan & desa = ibukota,33.11.04.1001;33.11.01.2001
+33.12,KAB. WONOGIRI,JAWA TENGAH,Wonogiri,33.12.12.1002,Wuryorejo,Wonogiri,"kecamatan = ibukota, kelurahan pertama",33.12.12.1003;33.12.01.1009
+33.13,KAB. KARANGANYAR,JAWA TENGAH,Karanganyar,33.13.09.1007,Karanganyar,Karanganyar,kecamatan & desa = ibukota,33.13.09.1001;33.13.01.2001
+33.14,KAB. SRAGEN,JAWA TENGAH,Sragen,33.14.10.1001,Sine,Sragen,"kecamatan = ibukota, kelurahan pertama",33.14.10.1002;33.14.01.2001
+33.15,KAB. GROBOGAN,JAWA TENGAH,Purwodadi,33.15.13.1012,Purwodadi,Purwodadi,kecamatan & desa = ibukota,33.15.13.1003;33.15.01.2001
+33.16,KAB. BLORA,JAWA TENGAH,Blora,33.16.09.1006,Beran,Blora,"kecamatan = ibukota, kelurahan pertama",33.16.09.1008;33.16.01.2001
+33.17,KAB. REMBANG,JAWA TENGAH,Rembang,33.17.10.1019,Magersari,Rembang,"kecamatan = ibukota, kelurahan pertama",33.17.10.1020;33.17.01.2001
+33.18,KAB. PATI,JAWA TENGAH,Pati,33.18.10.1005,Pati Wetan,Pati,"kecamatan = ibukota, kelurahan pertama",33.18.10.1007;33.18.01.2001
+33.19,KAB. KUDUS,JAWA TENGAH,Kudus,33.19.02.1001,Purwosari,Kota Kudus,"kecamatan = ibukota, kelurahan pertama",33.19.02.1004;33.19.01.2001
+33.20,KAB. JEPARA,JAWA TENGAH,Jepara,33.20.06.1001,Karangkebagusan,Jepara,"kecamatan = ibukota, kelurahan pertama",33.20.06.1002;33.20.01.2001
+33.21,KAB. DEMAK,JAWA TENGAH,Demak,33.21.11.1014,Mangunjiwan,Demak,"kecamatan = ibukota, kelurahan pertama",33.21.11.1015;33.21.01.2001
+33.22,KAB. SEMARANG,JAWA TENGAH,Semarang,33.22.10.1001,Ngampin,Ambarawa,kelurahan pertama di kecamatan paling urban,33.22.10.1002;33.22.01.2001
+33.23,KAB. TEMANGGUNG,JAWA TENGAH,Temanggung,33.23.03.1001,Temanggung I,Temanggung,"kecamatan = ibukota, kelurahan pertama",33.23.03.1002;33.23.01.2001
+33.24,KAB. KENDAL,JAWA TENGAH,Kendal,33.24.15.1001,Candiroto,Kendal,"kecamatan = ibukota, kelurahan pertama",33.24.15.1002;33.24.01.2001
+33.25,KAB. BATANG,JAWA TENGAH,Batang,33.25.11.1013,Watesalit,Batang,"kecamatan = ibukota, kelurahan pertama",33.25.11.1014;33.25.01.2001
+33.26,KAB. PEKALONGAN,JAWA TENGAH,Pekalongan,33.26.16.1010,Gumawang,Wiradesa,kelurahan pertama di kecamatan paling urban,33.26.16.1011;33.26.01.2001
+33.27,KAB. PEMALANG,JAWA TENGAH,Pemalang,33.27.08.1004,Paduraksa,Pemalang,"kecamatan = ibukota, kelurahan pertama",33.27.08.1013;33.27.01.2001
+33.28,KAB. TEGAL,JAWA TENGAH,Tegal,33.28.10.1006,Pakembaran,Slawi,kelurahan pertama di kecamatan paling urban,33.28.10.1007;33.28.01.2001
+33.29,KAB. BREBES,JAWA TENGAH,Brebes,33.29.09.1002,Brebes,Brebes,kecamatan & desa = ibukota,33.29.09.1003;33.29.01.2001
+33.71,KOTA MAGELANG,JAWA TENGAH,Magelang,33.71.03.1004,Magelang,Magelang Tengah,desa = ibukota,33.71.03.1001;33.71.01.1003
+33.72,KOTA SURAKARTA,JAWA TENGAH,Surakarta,33.72.05.1001,Kadipiro,Banjarsari,kelurahan pertama di kecamatan paling urban,33.72.05.1002;33.72.01.1001
+33.73,KOTA SALATIGA,JAWA TENGAH,Salatiga,33.73.01.1003,Salatiga,Sidorejo,desa = ibukota,33.73.01.1001;33.73.02.1001
+33.74,KOTA SEMARANG,JAWA TENGAH,Semarang,33.74.12.1001,Pakintelan,Gunungpati,kelurahan pertama di kecamatan paling urban,33.74.12.1002;33.74.01.1001
+33.75,KOTA PEKALONGAN,JAWA TENGAH,Pekalongan,33.75.01.1002,Medono,Pekalongan Barat,kelurahan pertama di kecamatan paling urban,33.75.01.1003;33.75.02.1002
+33.76,KOTA TEGAL,JAWA TENGAH,Tegal,33.76.03.1001,Kalinyamat Wetan,Tegal Selatan,kelurahan pertama di kecamatan paling urban,33.76.03.1002;33.76.01.1001
+34.01,KAB. KULON PROGO,DAERAH ISTIMEWA YOGYAKARTA,Wates,34.01.02.1008,Wates,Wates,verifikasi SIGAP,34.01.02.2001;34.01.01.2001
+34.02,KAB. BANTUL,DAERAH ISTIMEWA YOGYAKARTA,Bantul,34.02.08.2003,Bantul,Bantul,verifikasi SIGAP,34.02.08.2001;34.02.01.2001
+34.03,KAB. GUNUNGKIDUL,DAERAH ISTIMEWA YOGYAKARTA,Wonosari,34.03.01.2001,Wonosari,Wonosari,verifikasi SIGAP,34.03.01.2002;34.03.02.2001
+34.04,KAB. SLEMAN,DAERAH ISTIMEWA YOGYAKARTA,Sleman,34.04.13.2002,Triharjo,Sleman,verifikasi SIGAP,34.04.13.2001;34.04.01.2001
+34.71,KOTA YOGYAKARTA,DAERAH ISTIMEWA YOGYAKARTA,Yogyakarta,34.71.10.1001,Ngupasan,Gondomanan,verifikasi SIGAP,34.71.10.1002;34.71.01.1001
+35.01,KAB. PACITAN,JAWA TIMUR,Pacitan,35.01.04.1013,Pacitan,Pacitan,kecamatan & desa = ibukota,35.01.04.1001;35.01.01.2001
+35.02,KAB. PONOROGO,JAWA TIMUR,Ponorogo,35.02.17.1001,Paju,Ponorogo,"kecamatan = ibukota, kelurahan pertama",35.02.17.1002;35.02.01.2001
+35.03,KAB. TRENGGALEK,JAWA TIMUR,Trenggalek,35.03.11.1002,Tamanan,Trenggalek,"kecamatan = ibukota, kelurahan pertama",35.03.11.1003;35.03.01.2001
+35.04,KAB. TULUNGAGUNG,JAWA TIMUR,Tulungagung,35.04.01.1001,Kedungsoko,Tulungagung,"kecamatan = ibukota, kelurahan pertama",35.04.01.1002;35.04.02.2001
+35.05,KAB. BLITAR,JAWA TIMUR,Blitar,35.05.12.1002,Kedungbunder,Sutojayan,kelurahan pertama di kecamatan paling urban,35.05.12.1003;35.05.01.2001
+35.06,KAB. KEDIRI,JAWA TIMUR,Kediri,35.06.17.1009,Pare,Pare,kelurahan pertama di kecamatan paling urban,35.06.17.2001;35.06.01.2001
+35.07,KAB. MALANG,JAWA TIMUR,Malang,35.07.13.1007,Panarukan,Kepanjen,kelurahan pertama di kecamatan paling urban,35.07.13.1009;35.07.01.2001
+35.08,KAB. LUMAJANG,JAWA TIMUR,Lumajang,35.08.10.1003,Citrodiwangsan,Lumajang,"kecamatan = ibukota, kelurahan pertama",35.08.10.1004;35.08.01.2001
+35.09,KAB. JEMBER,JAWA TIMUR,Jember,35.09.20.1001,Banjarsengon,Patrang,kelurahan pertama di kecamatan paling urban,35.09.20.1002;35.09.01.2001
+35.10,KAB. BANYUWANGI,JAWA TIMUR,Banyuwangi,35.10.16.1001,Pakis,Banyuwangi,"kecamatan = ibukota, kelurahan pertama",35.10.16.1002;35.10.01.2001
+35.11,KAB. BONDOWOSO,JAWA TIMUR,Bondowoso,35.11.11.1004,Nangkaan,Bondowoso,"kecamatan = ibukota, kelurahan pertama",35.11.11.1005;35.11.01.2001
+35.12,KAB. SITUBONDO,JAWA TIMUR,Situbondo,35.12.07.1002,Patokan,Situbondo,"kecamatan = ibukota, kelurahan pertama",35.12.07.1003;35.12.01.2001
+35.13,KAB. PROBOLINGGO,JAWA TIMUR,Probolinggo,35.13.14.1003,Semampir,Kraksaan,kelurahan pertama di kecamatan paling urban,35.13.14.1005;35.13.01.2001
+35.14,KAB. PASURUAN,JAWA TIMUR,Pasuruan,35.14.14.1001,Kolursari,Bangil,kelurahan pertama di kecamatan paling urban,35.14.14.1002;35.14.01.2001
+35.15,KAB. SIDOARJO,JAWA TIMUR,Sidoarjo,35.15.08.1004,Sidokare,Sidoarjo,"kecamatan = ibukota, kelurahan pertama",35.15.08.1005;35.15.01.2001
+35.16,KAB. MOJOKERTO,JAWA TIMUR,Mojokerto,35.16.08.1004,Kauman,Mojosari,kelurahan pertama di kecamatan paling urban,35.16.08.1005;35.16.01.2001
+35.17,KAB. JOMBANG,JAWA TIMUR,Jombang,35.17.09.2012,Jombang,Jombang,kecamatan & desa = ibukota,35.17.09.1002;35.17.01.2001
+35.18,KAB. NGANJUK,JAWA TIMUR,Nganjuk,35.18.13.1001,Jatirejo,Nganjuk,"kecamatan = ibukota, kelurahan pertama",35.18.13.1002;35.18.01.2001
+35.19,KAB. MADIUN,JAWA TIMUR,Madiun,35.19.08.1001,Nglames,Madiun,"kecamatan = ibukota, kelurahan pertama",35.19.08.2002;35.19.01.2001
+35.20,KAB. MAGETAN,JAWA TIMUR,Magetan,35.20.06.1004,Magetan,Magetan,kecamatan & desa = ibukota,35.20.06.1002;35.20.01.1005
+35.21,KAB. NGAWI,JAWA TIMUR,Ngawi,35.21.09.2010,Ngawi,Ngawi,kecamatan & desa = ibukota,35.21.09.1013;35.21.01.2001
+35.22,KAB. BOJONEGORO,JAWA TIMUR,Bojonegoro,35.22.15.1001,Jetak,Bojonegoro,"kecamatan = ibukota, kelurahan pertama",35.22.15.1004;35.22.01.2001
+35.23,KAB. TUBAN,JAWA TIMUR,Tuban,35.23.16.1003,Mondokan,Tuban,"kecamatan = ibukota, kelurahan pertama",35.23.16.1005;35.23.01.2001
+35.24,KAB. LAMONGAN,JAWA TIMUR,Lamongan,35.24.22.1012,Sukorejo,Lamongan,"kecamatan = ibukota, kelurahan pertama",35.24.22.1013;35.24.01.2001
+35.25,KAB. GRESIK,JAWA TIMUR,Gresik,35.25.16.1001,Ngipik,Gresik,"kecamatan = ibukota, kelurahan pertama",35.25.16.1002;35.25.01.2001
+35.26,KAB. BANGKALAN,JAWA TIMUR,Bangkalan,35.26.01.1001,Mlajah,Bangkalan,"kecamatan = ibukota, kelurahan pertama",35.26.01.1002;35.26.02.2001
+35.27,KAB. SAMPANG,JAWA TIMUR,Sampang,35.27.03.1003,Polagan,Sampang,"kecamatan = ibukota, kelurahan pertama",35.27.03.1004;35.27.01.2001
+35.28,KAB. PAMEKASAN,JAWA TIMUR,Pamekasan,35.28.04.1001,Kangenan,Pamekasan,"kecamatan = ibukota, kelurahan pertama",35.28.04.1003;35.28.01.2001
+35.29,KAB. SUMENEP,JAWA TIMUR,Sumenep,35.29.01.1015,Kepanjin,Kota Sumenep,"kecamatan = ibukota, kelurahan pertama",35.29.01.1016;35.29.02.2001
+35.71,KOTA KEDIRI,JAWA TIMUR,Kediri,35.71.02.1001,Semampir,Kota,kelurahan pertama di kecamatan paling urban,35.71.02.1002;35.71.01.1001
+35.72,KOTA BLITAR,JAWA TIMUR,Blitar,35.72.02.1002,Blitar,Sukorejo,desa = ibukota,35.72.02.1001;35.72.01.1001
+35.73,KOTA MALANG,JAWA TIMUR,Malang,35.73.03.1001,Kotalama,Kedungkandang,kelurahan pertama di kecamatan paling urban,35.73.03.1002;35.73.01.1001
+35.74,KOTA PROBOLINGGO,JAWA TIMUR,Probolinggo,35.74.01.1001,Ketapang,Kademangan,kelurahan pertama di kecamatan paling urban,35.74.01.1002;35.74.02.1001
+35.75,KOTA PASURUAN,JAWA TIMUR,Pasuruan,35.75.04.1001,Karanganyar,Panggungrejo,kelurahan pertama di kecamatan paling urban,35.75.04.1002;35.75.01.1001
+35.76,KOTA MOJOKERTO,JAWA TIMUR,Mojokerto,35.76.01.1003,Mentikan,Prajuritkulon,kelurahan pertama di kecamatan paling urban,35.76.01.1004;35.76.02.1001
+35.77,KOTA MADIUN,JAWA TIMUR,Madiun,35.77.01.1001,Oro-oro Ombo,Kartoharjo,kelurahan pertama di kecamatan paling urban,35.77.01.1002;35.77.02.1001
+35.78,KOTA SURABAYA,JAWA TIMUR,Surabaya,35.78.10.1001,Tambaksari,Tambaksari,kelurahan pertama di kecamatan paling urban,35.78.10.1002;35.78.01.1001
+35.79,KOTA BATU,JAWA TIMUR,Batu,35.79.01.1001,Temas,Batu,"kecamatan = ibukota, kelurahan pertama",35.79.01.1002;35.79.02.2001
+36.01,KAB. PANDEGLANG,BANTEN,Pandeglang,36.01.21.1009,Pandeglang,Pandeglang,kecamatan & desa = ibukota,36.01.21.1002;36.01.01.2001
+36.02,KAB. LEBAK,BANTEN,Rangkasbitung,36.02.14.1002,Rangkasbitung Barat,Rangkasbitung,"kecamatan = ibukota, kelurahan pertama",36.02.14.1006;36.02.01.2002
+36.03,KAB. TANGERANG,BANTEN,Tangerang,36.03.28.1001,Kelapa Dua,Kelapa Dua,kelurahan pertama di kecamatan paling urban,36.03.28.1002;36.03.01.1001
+36.04,KAB. SERANG,BANTEN,Serang,36.04.05.2001,Kramatwatu,Kramatwatu,desa pertama (cadangan terakhir),36.04.05.2002;36.04.06.2001
+36.71,KOTA TANGERANG,BANTEN,Tangerang,36.71.01.1001,Sukarasa,Tangerang,"kecamatan = ibukota, kelurahan pertama",36.71.01.1002;36.71.02.1001
+36.72,KOTA CILEGON,BANTEN,Cilegon,36.72.02.1001,Bagendung,Cilegon,"kecamatan = ibukota, kelurahan pertama",36.72.02.1002;36.72.01.1001
+36.73,KOTA SERANG,BANTEN,Serang,36.73.01.1001,Serang,Serang,kecamatan & desa = ibukota,36.73.01.1002;36.73.02.1001
+36.74,KOTA TANGERANG SELATAN,BANTEN,Tangerang Selatan,36.74.03.1001,Pondok Betung,Pondok Aren,kelurahan pertama di kecamatan paling urban,36.74.03.1002;36.74.01.1001
+51.01,KAB. JEMBRANA,BALI,Negara,51.01.01.1006,Baler Bale Agung,Negara,"kecamatan = ibukota, kelurahan pertama",51.01.01.1008;51.01.02.1006
+51.02,KAB. TABANAN,BALI,Tabanan,51.02.05.2001,Sudimara,Tabanan,"kecamatan = ibukota, desa pertama",51.02.05.2002;51.02.01.2001
+51.03,KAB. BADUNG,BALI,Mangupura,51.03.01.1001,Tuban,Kuta,kelurahan pertama di kecamatan paling urban,51.03.01.1002;51.03.02.1004
+51.04,KAB. GIANYAR,BALI,Gianyar,51.04.03.1006,Gianyar,Gianyar,kecamatan & desa = ibukota,51.04.03.1003;51.04.01.2001
+51.05,KAB. KLUNGKUNG,BALI,Semarapura,51.05.03.1008,Semarapura Kaja,Klungkung,kelurahan pertama di kecamatan paling urban,51.05.03.1009;51.05.01.2001
+51.06,KAB. BANGLI,BALI,Bangli,51.06.02.1003,Bebalang,Bangli,"kecamatan = ibukota, kelurahan pertama",51.06.02.1004;51.06.01.2001
+51.07,KAB. KARANGASEM,BALI,Amlapura,51.07.04.1002,Subagan,Karangasem,kelurahan pertama di kecamatan paling urban,51.07.04.1003;51.07.01.2001
+51.08,KAB. BULELENG,BALI,Singaraja,51.08.06.1006,Banyuasri,Buleleng,kelurahan pertama di kecamatan paling urban,51.08.06.1007;51.08.01.2001
+51.71,KOTA DENPASAR,BALI,Denpasar,51.71.01.1001,Serangan,Denpasar Selatan,kelurahan pertama di kecamatan paling urban,51.71.01.1002;51.71.02.1003
+52.01,KAB. LOMBOK BARAT,NUSA TENGGARA BARAT,Gerung,52.01.01.1001,Gerung Utara,Gerung,"kecamatan = ibukota, kelurahan pertama",52.01.01.1004;52.01.02.2001
+52.02,KAB. LOMBOK TENGAH,NUSA TENGGARA BARAT,Praya,52.02.01.1001,Praya,Praya,kecamatan & desa = ibukota,52.02.01.1002;52.02.02.2001
+52.03,KAB. LOMBOK TIMUR,NUSA TENGGARA BARAT,Selong,52.03.07.1002,Selong,Selong,kecamatan & desa = ibukota,52.03.07.1001;52.03.01.2001
+52.04,KAB. SUMBAWA,NUSA TENGGARA BARAT,Sumbawa Besar,52.04.08.1001,Samapuin,Sumbawa,kelurahan pertama di kecamatan paling urban,52.04.08.1002;52.04.02.2001
+52.05,KAB. DOMPU,NUSA TENGGARA BARAT,Dompu,52.05.01.1001,Bada,Dompu,"kecamatan = ibukota, kelurahan pertama",52.05.01.1002;52.05.02.2001
+52.06,KAB. BIMA,NUSA TENGGARA BARAT,Bima,52.06.01.2005,Tolotangga,Monta,desa pertama (cadangan terakhir),52.06.01.2006;52.06.02.2001
+52.07,KAB. SUMBAWA BARAT,NUSA TENGGARA BARAT,Taliwang,52.07.02.1004,Menala,Taliwang,"kecamatan = ibukota, kelurahan pertama",52.07.02.1005;52.07.01.2001
+52.08,KAB. LOMBOK UTARA,NUSA TENGGARA BARAT,Tanjung,52.08.01.2001,Tanjung,Tanjung,kecamatan & desa = ibukota,52.08.01.2002;52.08.02.2001
+52.71,KOTA MATARAM,NUSA TENGGARA BARAT,Mataram,52.71.02.1001,Pagesangan,Mataram,"kecamatan = ibukota, kelurahan pertama",52.71.02.1002;52.71.01.1004
+52.72,KOTA BIMA,NUSA TENGGARA BARAT,Bima,52.72.04.1001,Penaraga,Raba,kelurahan pertama di kecamatan paling urban,52.72.04.1002;52.72.01.1001
+53.01,KAB. KUPANG,NUSA TENGGARA TIMUR,Kupang,53.01.06.1001,Babau,Kupang Timur,kelurahan pertama di kecamatan paling urban,53.01.06.1003;53.01.04.2003
+53.02,KAB TIMOR TENGAH SELATAN,NUSA TENGGARA TIMUR,Soe,53.02.01.1001,SoE,Kota Soe,kecamatan & desa = ibukota,53.02.01.1002;53.02.02.2001
+53.03,KAB. TIMOR TENGAH UTARA,NUSA TENGGARA TIMUR,Kefamenanu,53.03.05.1001,Kefamenanu Utara,Kota Kefamenanu,"kecamatan = ibukota, kelurahan pertama",53.03.05.1002;53.03.01.1006
+53.04,KAB. BELU,NUSA TENGGARA TIMUR,Atambua,53.04.12.1001,Kota Atambua,Kota Atambua,kecamatan & desa = ibukota,53.04.12.1002;53.04.01.2001
+53.05,KAB. ALOR,NUSA TENGGARA TIMUR,Kalabahi,53.05.01.1002,Kalabahi Kota,Teluk Mutiara,desa = ibukota,53.05.01.1001;53.05.02.1002
+53.06,KAB. FLORES TIMUR,NUSA TENGGARA TIMUR,Larantuka,53.06.03.1004,Larantuka,Larantuka,kecamatan & desa = ibukota,53.06.03.1001;53.06.01.2001
+53.07,KAB. SIKKA,NUSA TENGGARA TIMUR,Maumere,53.07.15.1001,Beru,Alok Timur,kelurahan pertama di kecamatan paling urban,53.07.15.1002;53.07.01.2001
+53.08,KAB. ENDE,NUSA TENGGARA TIMUR,Ende,53.08.03.2001,Raburia,Ende,"kecamatan = ibukota, desa pertama",53.08.03.2002;53.08.01.1001
+53.09,KAB. NGADA,NUSA TENGGARA TIMUR,Bajawa,53.09.06.1013,Bajawa,Bajawa,kecamatan & desa = ibukota,53.09.06.1014;53.09.01.1002
+53.10,KAB. MANGGARAI,NUSA TENGGARA TIMUR,Ruteng,53.10.03.1005,Wae Belang,Ruteng,"kecamatan = ibukota, kelurahan pertama",53.10.03.2002;53.10.01.2001
+53.11,KAB. SUMBA TIMUR,NUSA TENGGARA TIMUR,Waingapu,53.11.01.1001,Kambajawa,Kota Waingapu,"kecamatan = ibukota, kelurahan pertama",53.11.01.1002;53.11.02.2003
+53.12,KAB. SUMBA BARAT,NUSA TENGGARA TIMUR,Waikabubak,53.12.15.1001,Wailiang,Kota Waikabubak,"kecamatan = ibukota, kelurahan pertama",53.12.15.1002;53.12.04.2001
+53.13,KAB. LEMBATA,NUSA TENGGARA TIMUR,Lewoleba,53.13.05.1001,Lewoleba,Nubatukan,desa = ibukota,53.13.05.1002;53.13.01.2001
+53.14,KAB. ROTE NDAO,NUSA TENGGARA TIMUR,Baa,53.14.03.1001,Namodale,Lobalain,kelurahan pertama di kecamatan paling urban,53.14.03.1009;53.14.01.2005
+53.15,KAB. MANGGARAI BARAT,NUSA TENGGARA TIMUR,Labuan Bajo,53.15.05.1025,Labuan Bajo,Komodo,desa = ibukota,53.15.05.1024;53.15.01.2001
+53.16,KAB. NAGEKEO,NUSA TENGGARA TIMUR,Mbay,53.16.03.1001,Natanage,Boawae,kelurahan pertama di kecamatan paling urban,53.16.03.1003;53.16.01.1001
+53.17,KAB. SUMBA TENGAH,NUSA TENGGARA TIMUR,Waibakul,53.17.01.2001,Makata Keri,Katiku Tana,desa pertama (cadangan terakhir),53.17.01.2003;53.17.02.2001
+53.18,KAB. SUMBA BARAT DAYA,NUSA TENGGARA TIMUR,Tambolaka,53.18.09.1003,Langga Lero,Kota Tambolaka,"kecamatan = ibukota, kelurahan pertama",53.18.09.1004;53.18.01.2001
+53.19,KAB. MANGGARAI TIMUR,NUSA TENGGARA TIMUR,Borong,53.19.01.1020,Kota Ndora,Borong,"kecamatan = ibukota, kelurahan pertama",53.19.01.1021;53.19.02.1027
+53.20,KAB. SABU RAIJUA,NUSA TENGGARA TIMUR,Seba,53.20.03.1001,Bolou,Sabu Timur,kelurahan pertama di kecamatan paling urban,53.20.03.1002;53.20.01.1001
+53.21,KAB. MALAKA,NUSA TENGGARA TIMUR,Betun,53.21.01.2001,Barene,Malaka Tengah,desa pertama (cadangan terakhir),53.21.01.2002;53.21.02.2001
+53.71,KOTA KUPANG,NUSA TENGGARA TIMUR,Kupang,53.71.01.1001,Namosain,Alak,kelurahan pertama di kecamatan paling urban,53.71.01.1002;53.71.02.1001
+61.01,KAB. SAMBAS,KALIMANTAN BARAT,Sambas,61.01.01.2001,Dalam Kaum,Sambas,"kecamatan = ibukota, desa pertama",61.01.01.2002;61.01.02.2001
+61.02,KAB. MEMPAWAH,KALIMANTAN BARAT,Mempawah,61.02.01.1006,Tanjung,Mempawah Hilir,kelurahan pertama di kecamatan paling urban,61.02.01.1007;61.02.06.2001
+61.03,KAB. SANGGAU,KALIMANTAN BARAT,Sanggau,61.03.01.1001,Tanjung Kapuas,Kapuas,kelurahan pertama di kecamatan paling urban,61.03.01.1002;61.03.02.2001
+61.04,KAB. KETAPANG,KALIMANTAN BARAT,Ketapang,61.04.16.1001,Kantor,Delta Pawan,kelurahan pertama di kecamatan paling urban,61.04.16.1002;61.04.01.2011
+61.05,KAB. SINTANG,KALIMANTAN BARAT,Sintang,61.05.01.1001,Ladang,Sintang,"kecamatan = ibukota, kelurahan pertama",61.05.01.1002;61.05.02.2001
+61.06,KAB. KAPUAS HULU,KALIMANTAN BARAT,Putussibau,61.06.01.1001,Putussibau Kota,Putussibau Utara,desa = ibukota,61.06.01.1002;61.06.02.2001
+61.07,KAB. BENGKAYANG,KALIMANTAN BARAT,Bengkayang,61.07.04.1001,Bumi Emas,Bengkayang,"kecamatan = ibukota, kelurahan pertama",61.07.04.1010;61.07.01.2001
+61.08,KAB. LANDAK,KALIMANTAN BARAT,Ngabang,61.08.01.2001,Hilir Kantor,Ngabang,"kecamatan = ibukota, desa pertama",61.08.01.2002;61.08.02.2001
+61.09,KAB. SEKADAU,KALIMANTAN BARAT,Sekadau,61.09.01.2001,Sungai Ringin,Sekadau Hilir,desa pertama (cadangan terakhir),61.09.01.2002;61.09.02.2001
+61.10,KAB. MELAWI,KALIMANTAN BARAT,Nanga Pinoh,61.10.02.2001,Tanjung Niaga,Nanga Pinoh,"kecamatan = ibukota, desa pertama",61.10.02.2002;61.10.01.2001
+61.11,KAB. KAYONG UTARA,KALIMANTAN BARAT,Sukadana,61.11.01.2001,Sutera,Sukadana,"kecamatan = ibukota, desa pertama",61.11.01.2002;61.11.02.2001
+61.12,KAB. KUBU RAYA,KALIMANTAN BARAT,Sungai Raya,61.12.01.2001,Sungai Raya,Sungai Raya,kecamatan & desa = ibukota,61.12.01.2002;61.12.02.2001
+61.71,KOTA PONTIANAK,KALIMANTAN BARAT,Pontianak,61.71.05.1001,Sungaibangkong,Pontianak Kota,"kecamatan = ibukota, kelurahan pertama",61.71.05.1002;61.71.01.1002
+61.72,KOTA SINGKAWANG,KALIMANTAN BARAT,Singkawang,61.72.04.1001,Sungai Garam Hilir,Singkawang Utara,kelurahan pertama di kecamatan paling urban,61.72.04.1002;61.72.01.1001
+62.01,KAB. KOTAWARINGIN BARAT,KALIMANTAN TENGAH,Pangkalan Bun,62.01.02.1002,Mendawai Seberang,Arut Selatan,kelurahan pertama di kecamatan paling urban,62.01.02.1003;62.01.01.1011
+62.02,KAB. KOTAWARINGIN TIMUR,KALIMANTAN TENGAH,Sampit,62.02.05.1001,Baamang Hilir,Baamang,kelurahan pertama di kecamatan paling urban,62.02.05.1002;62.02.01.1009
+62.03,KAB. KAPUAS,KALIMANTAN TENGAH,Kuala Kapuas,62.03.01.1006,Murung Keramat,Selat,kelurahan pertama di kecamatan paling urban,62.03.01.1007;62.03.02.1001
+62.04,KAB. BARITO SELATAN,KALIMANTAN TENGAH,Buntok,62.04.06.1008,Buntok Kota,Dusun Selatan,desa = ibukota,62.04.06.1006;62.04.01.1003
+62.05,KAB. BARITO UTARA,KALIMANTAN TENGAH,Muara Teweh,62.05.01.1001,Montallat I,Montallat,kelurahan pertama di kecamatan paling urban,62.05.01.1002;62.05.02.2001
+62.06,KAB. KATINGAN,KALIMANTAN TENGAH,Kasongan,62.06.02.1003,Kasongan Baru,Katingan Hilir,kelurahan pertama di kecamatan paling urban,62.06.02.1004;62.06.01.2001
+62.07,KAB. SERUYAN,KALIMANTAN TENGAH,Kuala Pembuang,62.07.01.1001,Kuala Pembuang I,Seruyan Hilir,kelurahan pertama di kecamatan paling urban,62.07.01.1002;62.07.02.1016
+62.08,KAB. SUKAMARA,KALIMANTAN TENGAH,Sukamara,62.08.01.1003,Mendawai,Sukamara,"kecamatan = ibukota, kelurahan pertama",62.08.01.1004;62.08.02.1001
+62.09,KAB. LAMANDAU,KALIMANTAN TENGAH,Nanga Bulik,62.09.03.1005,Nanga Bulik,Bulik,desa = ibukota,62.09.03.2001;62.09.01.1012
+62.10,KAB. GUNUNG MAS,KALIMANTAN TENGAH,Kuala Kurun,62.10.02.1001,Tampang Tumbang Anjir,Kurun,kelurahan pertama di kecamatan paling urban,62.10.02.1012;62.10.01.1001
+62.11,KAB. PULANG PISAU,KALIMANTAN TENGAH,Pulang Pisau,62.11.05.1005,Kahayan Hilir,Kahayan Hilir,kelurahan pertama di kecamatan paling urban,62.11.05.1015;62.11.01.2001
+62.12,KAB. MURUNG RAYA,KALIMANTAN TENGAH,Puruk Cahu,62.12.01.1012,Puruk Cahu,Murung,desa = ibukota,62.12.01.1013;62.12.02.1014
+62.13,KAB. BARITO TIMUR,KALIMANTAN TENGAH,Tamiang Layang,62.13.01.1012,Tamiang Layang,Dusun Timur,desa = ibukota,62.13.01.2003;62.13.02.1001
+62.71,KOTA PALANGKARAYA,KALIMANTAN TENGAH,Palangka Raya,62.71.02.1001,Marang,Bukit Batu,kelurahan pertama di kecamatan paling urban,62.71.02.1002;62.71.01.1001
+63.01,KAB. TANAH LAUT,KALIMANTAN SELATAN,Pelaihari,63.01.03.1003,Pelaihari,Pelaihari,kecamatan & desa = ibukota,63.01.03.1001;63.01.01.2001
+63.02,KAB. KOTABARU,KALIMANTAN SELATAN,Kotabaru,63.02.06.1001,Kotabaru Hulu,Pulau Laut Utara,kelurahan pertama di kecamatan paling urban,63.02.06.1002;63.02.01.2001
+63.03,KAB. BANJAR,KALIMANTAN SELATAN,Martapura,63.03.05.1001,Keraton,Martapura,"kecamatan = ibukota, kelurahan pertama",63.03.05.1002;63.03.01.2001
+63.04,KAB. BARITO KUALA,KALIMANTAN SELATAN,Marabahan,63.04.15.1001,Marabahan Kota,Marabahan,kecamatan & desa = ibukota,63.04.15.1002;63.04.01.2001
+63.05,KAB. TAPIN,KALIMANTAN SELATAN,Rantau,63.05.04.1001,Rangda Malingkung,Tapin Utara,kelurahan pertama di kecamatan paling urban,63.05.04.1002;63.05.01.1001
+63.06,KAB. HULU SUNGAI SELATAN,KALIMANTAN SELATAN,Kandangan,63.06.05.1001,Kandangan Kota,Kandangan,kecamatan & desa = ibukota,63.06.05.1002;63.06.01.2001
+63.07,KAB. HULU SUNGAI TENGAH,KALIMANTAN SELATAN,Barabai,63.07.06.1001,Barabai Darat,Barabai,"kecamatan = ibukota, kelurahan pertama",63.07.06.1002;63.07.01.2001
+63.08,KAB. HULU SUNGAI UTARA,KALIMANTAN SELATAN,Amuntai,63.08.05.1001,Antasari,Amuntai Tengah,kelurahan pertama di kecamatan paling urban,63.08.05.1002;63.08.01.2003
+63.09,KAB. TABALONG,KALIMANTAN SELATAN,Tanjung,63.09.04.1002,Tanjung,Tanjung,kecamatan & desa = ibukota,63.09.04.1001;63.09.01.2001
+63.10,KAB. TANAH BUMBU,KALIMANTAN SELATAN,Batulicin,63.10.01.1007,Batulicin,Batu Licin,kecamatan & desa = ibukota,63.10.01.1028;63.10.02.1001
+63.11,KAB. BALANGAN,KALIMANTAN SELATAN,Paringin,63.11.06.1023,Paringin Kota,Paringin,kecamatan & desa = ibukota,63.11.06.1019;63.11.01.2001
+63.71,KOTA BANJARMASIN,KALIMANTAN SELATAN,Banjarmasin,63.71.01.1001,Mantuil,Banjarmasin Selatan,kelurahan pertama di kecamatan paling urban,63.71.01.1002;63.71.02.1001
+63.72,KOTA BANJARBARU,KALIMANTAN SELATAN,Banjarbaru,63.72.02.1003,Landasan Ulin Timur,Landasan Ulin,kelurahan pertama di kecamatan paling urban,63.72.02.1004;63.72.03.1001
+64.01,KAB. PASER,KALIMANTAN TIMUR,Tana Paser,64.01.04.1001,Tanah Grogot,Tanah Grogot,kelurahan pertama di kecamatan paling urban,64.01.04.2002;64.01.01.2009
+64.02,KAB. KUTAI KARTANEGARA,KALIMANTAN TIMUR,Tenggarong,64.02.06.1001,Jahab,Tenggarong,"kecamatan = ibukota, kelurahan pertama",64.02.06.1002;64.02.01.2001
+64.03,KAB. BERAU,KALIMANTAN TIMUR,Tanjung Redeb,64.03.05.1004,Tanjung Redeb,Tanjung Redeb,kecamatan & desa = ibukota,64.03.05.1003;64.03.01.2001
+64.07,KAB. KUTAI BARAT,KALIMANTAN TIMUR,Sendawar,64.07.07.2019,Sendawar,Barong Tongkok,desa = ibukota,64.07.07.1001;64.07.05.2008
+64.08,KAB. KUTAI TIMUR,KALIMANTAN TIMUR,Sangatta,64.08.04.1010,Teluk Lingga,Sangatta Utara,kelurahan pertama di kecamatan paling urban,64.08.04.2001;64.08.01.2001
+64.09,KAB. PENAJAM PASER UTARA,KALIMANTAN TIMUR,Penajam,64.09.01.1011,Penajam,Penajam,kecamatan & desa = ibukota,64.09.01.1001;64.09.02.1003
+64.11,KAB. MAHAKAM ULU,KALIMANTAN TIMUR,Ujoh Bilang,64.11.01.2006,Ujoh Bilang,Long Bagun,desa = ibukota,64.11.01.2001;64.11.02.2001
+64.71,KOTA BALIKPAPAN,KALIMANTAN TIMUR,Balikpapan,64.71.06.1001,Prapatan,Balikpapan Kota,"kecamatan = ibukota, kelurahan pertama",64.71.06.1002;64.71.01.1001
+64.72,KOTA SAMARINDA,KALIMANTAN TIMUR,Samarinda,64.72.09.1001,Karang Mumus,Samarinda Kota,"kecamatan = ibukota, kelurahan pertama",64.72.09.1002;64.72.01.1001
+64.74,KOTA BONTANG,KALIMANTAN TIMUR,Bontang,64.74.01.1001,Bontang Kuala,Bontang Utara,kelurahan pertama di kecamatan paling urban,64.74.01.1002;64.74.02.1001
+65.01,KAB. BULUNGAN,KALIMANTAN UTARA,Tanjung Selor,65.01.05.1001,Tanjung Selor Hulu,Tanjung Selor,"kecamatan = ibukota, kelurahan pertama",65.01.05.1002;65.01.01.1001
+65.02,KAB. MALINAU,KALIMANTAN UTARA,Malinau,65.02.02.2002,Malinau Kota,Malinau Kota,kecamatan & desa = ibukota,65.02.02.2001;65.02.01.2001
+65.03,KAB. NUNUKAN,KALIMANTAN UTARA,Nunukan,65.03.02.1001,Nunukan Timur,Nunukan,"kecamatan = ibukota, kelurahan pertama",65.03.02.1002;65.03.01.2001
+65.04,KAB. TANA TIDUNG,KALIMANTAN UTARA,Tideng Pale,65.04.01.2001,Tideng Pale,Sesayap,desa = ibukota,65.04.01.2002;65.04.02.2001
+65.71,KOTA TARAKAN,KALIMANTAN UTARA,Tarakan,65.71.03.1001,Lingkas Ujung,Tarakan Timur,kelurahan pertama di kecamatan paling urban,65.71.03.1002;65.71.01.1001
+71.01,KAB. BOLAANG MONGONDOW,SULAWESI UTARA,Lolak,71.01.12.2005,Lolak,Lolak,kecamatan & desa = ibukota,71.01.12.2001;71.01.05.2001
+71.02,KAB. MINAHASA,SULAWESI UTARA,Tondano,71.02.02.1001,Luaan,Tondano Timur,kelurahan pertama di kecamatan paling urban,71.02.02.1005;71.02.01.1007
+71.03,KAB. KEPULAUAN SANGIHE,SULAWESI UTARA,Tahuna,71.03.17.1006,Sawang Bendar,Tahuna,"kecamatan = ibukota, kelurahan pertama",71.03.17.1007;71.03.08.2001
+71.04,KAB. KEPULAUAN TALAUD,SULAWESI UTARA,Melonguane,71.04.07.1001,Melonguane,Melonguane,kecamatan & desa = ibukota,71.04.07.1009;71.04.01.1005
+71.05,KAB. MINAHASA SELATAN,SULAWESI UTARA,Amurang,71.05.10.1004,Buyungon,Amurang,"kecamatan = ibukota, kelurahan pertama",71.05.10.1005;71.05.01.2001
+71.06,KAB. MINAHASA UTARA,SULAWESI UTARA,Airmadidi,71.06.03.1005,Airmadidi Bawah,Airmadidi,"kecamatan = ibukota, kelurahan pertama",71.06.03.1006;71.06.01.2001
+71.07,KAB. MINAHASA TENGGARA,SULAWESI UTARA,Ratahan,71.07.01.1004,Tosuraya,Ratahan,"kecamatan = ibukota, kelurahan pertama",71.07.01.1005;71.07.02.2001
+71.08,KAB. BOLAANG MONGONDOWUTARA,SULAWESI UTARA,Boroko,71.08.05.2002,Boroko,Kaidipang,desa = ibukota,71.08.05.2001;71.08.01.2001
+71.09,KAB. KEP. SIAU TAGULANDANGBIARO,SULAWESI UTARA,Ondong Siau,71.09.01.1009,Bebali,Siau Timur,kelurahan pertama di kecamatan paling urban,71.09.01.1010;71.09.02.1002
+71.10,KAB. BOLAANG MONGONDOWTIMUR,SULAWESI UTARA,Tutuyan,71.10.01.2003,Tutuyan,Tutuyan,kecamatan & desa = ibukota,71.10.01.2001;71.10.02.2001
+71.11,KAB. BOLAANG MONGONDOWSELATAN,SULAWESI UTARA,Molibagu,71.11.01.2007,Molibagu,Bolaang Uki,desa = ibukota,71.11.01.2004;71.11.02.2001
+71.71,KOTA MANADO,SULAWESI UTARA,Manado,71.71.04.1001,Tikala Kumaraka,Wenang,kelurahan pertama di kecamatan paling urban,71.71.04.1002;71.71.01.1001
+71.72,KOTA BITUNG,SULAWESI UTARA,Bitung,71.72.03.1001,Karondoran,Ranowulu,kelurahan pertama di kecamatan paling urban,71.72.03.1002;71.72.01.1001
+71.73,KOTA TOMOHON,SULAWESI UTARA,Tomohon,71.73.01.1001,Pinaras,Tomohon Selatan,kelurahan pertama di kecamatan paling urban,71.73.01.1002;71.73.02.1009
+71.74,KOTA KOTAMOBAGU,SULAWESI UTARA,Kotamobagu,71.74.04.1005,Kotamobagu,Kotamobagu Barat,desa = ibukota,71.74.04.1001;71.74.01.1005
+72.01,KAB. BANGGAI,SULAWESI TENGAH,Luwuk,72.01.04.1009,Luwuk,Luwuk,kecamatan & desa = ibukota,72.01.04.1010;72.01.01.1006
+72.02,KAB. POSO,SULAWESI TENGAH,Poso,72.02.01.1001,Moengko Lama,Poso Kota,"kecamatan = ibukota, kelurahan pertama",72.02.01.1002;72.02.02.1008
+72.03,KAB. DONGGALA,SULAWESI TENGAH,Banawa,72.03.08.1020,Ganti,Banawa,"kecamatan = ibukota, kelurahan pertama",72.03.08.1021;72.03.04.2001
+72.04,KAB. TOLI TOLI,SULAWESI TENGAH,Tolitoli,72.04.07.1001,Tambun,Baolan,kelurahan pertama di kecamatan paling urban,72.04.07.1003;72.04.01.2001
+72.05,KAB. BUOL,SULAWESI TENGAH,Buol,72.05.06.1001,Buol,Biau,desa = ibukota,72.05.06.1002;72.05.01.2001
+72.06,KAB. MOROWALI,SULAWESI TENGAH,Bungku,72.06.05.1014,Mendui,Bungku Tengah,kelurahan pertama di kecamatan paling urban,72.06.05.1015;72.06.06.2001
+72.07,KAB. BANGGAI KEPULAUAN,SULAWESI TENGAH,Salakan,72.07.04.1015,Salakan,Tinangkung,desa = ibukota,72.07.04.2009;72.07.03.2007
+72.08,KAB. PARIGI MOUTONG,SULAWESI TENGAH,Parigi,72.08.01.1017,Masigi,Parigi,"kecamatan = ibukota, kelurahan pertama",72.08.01.1018;72.08.02.2005
+72.09,KAB. TOJO UNA UNA,SULAWESI TENGAH,Ampana,72.09.05.1004,Ampana,Ampana Kota,kecamatan & desa = ibukota,72.09.05.1002;72.09.01.2005
+72.10,KAB. SIGI,SULAWESI TENGAH,Sigi Biromaru,72.10.01.2001,Sidondo II,Sigi Biromaru,"kecamatan = ibukota, desa pertama",72.10.01.2002;72.10.02.2001
+72.11,KAB. BANGGAI LAUT,SULAWESI TENGAH,Banggai,72.11.01.1005,Lompio,Banggai,"kecamatan = ibukota, kelurahan pertama",72.11.01.1006;72.11.02.2001
+72.12,KAB. MOROWALI UTARA,SULAWESI TENGAH,Kolonodale,72.12.01.1001,Kolonodale,Petasia,desa = ibukota,72.12.01.1002;72.12.02.2001
+72.71,KOTA PALU,SULAWESI TENGAH,Palu,72.71.08.1001,Layana Indah,Mantikulore,kelurahan pertama di kecamatan paling urban,72.71.08.1002;72.71.01.1004
+73.01,KAB. KEPULAUAN SELAYAR,SULAWESI SELATAN,Benteng,73.01.01.1002,Benteng,Benteng,kecamatan & desa = ibukota,73.01.01.1001;73.01.02.1001
+73.02,KAB. BULUKUMBA,SULAWESI SELATAN,Bulukumba,73.02.02.1001,Tanah Kongkong,Ujung Bulu,kelurahan pertama di kecamatan paling urban,73.02.02.1002;73.02.01.1001
+73.03,KAB. BANTAENG,SULAWESI SELATAN,Bantaeng,73.03.02.1001,Tappanjeng,Bantaeng,"kecamatan = ibukota, kelurahan pertama",73.03.02.1002;73.03.01.1001
+73.04,KAB. JENEPONTO,SULAWESI SELATAN,Bontosunggu,73.04.02.2008,Bontosunggu,Tamalatea,desa = ibukota,73.04.02.1001;73.04.01.1001
+73.05,KAB. TAKALAR,SULAWESI SELATAN,Pattallassang,73.05.07.1001,Pattallassang,Pattallassang,kecamatan & desa = ibukota,73.05.07.1002;73.05.01.1001
+73.06,KAB. GOWA,SULAWESI SELATAN,Sungguminasa,73.06.08.1001,Sungguminasa,Somba Upu,desa = ibukota,73.06.08.1002;73.06.01.1001
+73.07,KAB. SINJAI,SULAWESI SELATAN,Balangnipa,73.07.05.1003,Balangnipa,Sinjai Utara,desa = ibukota,73.07.05.1001;73.07.01.1001
+73.08,KAB. BONE,SULAWESI SELATAN,Watampone,73.08.21.1003,Watampone,Tanete Riattang,desa = ibukota,73.08.21.1001;73.08.01.1001
+73.09,KAB. MAROS,SULAWESI SELATAN,Turikale,73.09.14.1004,Turikale,Turikale,kecamatan & desa = ibukota,73.09.14.1001;73.09.01.1001
+73.10,KAB. PANGKAJENE KEPULAUAN,SULAWESI SELATAN,Pangkajene,73.10.04.1001,Jagong,Pangkajene,"kecamatan = ibukota, kelurahan pertama",73.10.04.1002;73.10.01.1001
+73.11,KAB. BARRU,SULAWESI SELATAN,Barru,73.11.03.1001,Coppo,Barru,"kecamatan = ibukota, kelurahan pertama",73.11.03.1002;73.11.01.1001
+73.12,KAB. SOPPENG,SULAWESI SELATAN,Watansoppeng,73.12.04.1001,Lalabata Rilau,Lalabata,kelurahan pertama di kecamatan paling urban,73.12.04.1002;73.12.01.1001
+73.13,KAB. WAJO,SULAWESI SELATAN,Sengkang,73.13.06.1001,Siengkang,Tempe,kelurahan pertama di kecamatan paling urban,73.13.06.1002;73.13.01.1001
+73.14,KAB. SIDENRENG RAPPANG,SULAWESI SELATAN,Pangkajene Sidenreng,73.14.07.1001,Pangkajene,Maritengngae,kelurahan pertama di kecamatan paling urban,73.14.07.1002;73.14.01.1001
+73.15,KAB. PINRANG,SULAWESI SELATAN,Pinrang,73.15.04.1001,Jaya,Watang Sawito,kelurahan pertama di kecamatan paling urban,73.15.04.1002;73.15.01.1001
+73.16,KAB. ENREKANG,SULAWESI SELATAN,Enrekang,73.16.02.1001,Galonta,Enrekang,"kecamatan = ibukota, kelurahan pertama",73.16.02.1002;73.16.01.1001
+73.17,KAB. LUWU,SULAWESI SELATAN,Belopa,73.17.07.2006,Belopa,Belopa,kecamatan & desa = ibukota,73.17.07.1001;73.17.01.2005
+73.18,KAB. TANA TORAJA,SULAWESI SELATAN,Makale,73.18.05.1003,Bombongan,Makale,"kecamatan = ibukota, kelurahan pertama",73.18.05.1005;73.18.01.1009
+73.22,KAB. LUWU UTARA,SULAWESI SELATAN,Masamba,73.22.03.2012,Masamba,Masamba,kecamatan & desa = ibukota,73.22.03.1001;73.22.01.2001
+73.24,KAB. LUWU TIMUR,SULAWESI SELATAN,Malili,73.24.04.1003,Malili,Malili,kecamatan & desa = ibukota,73.24.04.2001;73.24.01.2001
+73.26,KAB. TORAJA UTARA,SULAWESI SELATAN,Rantepao,73.26.01.1002,Rantepao,Rantepao,kecamatan & desa = ibukota,73.26.01.1001;73.26.02.1001
+73.71,KOTA MAKASSAR,SULAWESI SELATAN,Makassar,73.71.03.1001,Maricaya,Makassar,"kecamatan = ibukota, kelurahan pertama",73.71.03.1002;73.71.01.1001
+73.72,KOTA PARE PARE,SULAWESI SELATAN,Parepare,73.72.03.1001,Lakessi,Soreang,kelurahan pertama di kecamatan paling urban,73.72.03.1002;73.72.01.1004
+73.73,KOTA PALOPO,SULAWESI SELATAN,Palopo,73.73.04.1002,Maroangin,Telluwanua,kelurahan pertama di kecamatan paling urban,73.73.04.1003;73.73.01.1001
+74.01,KAB. KOLAKA,SULAWESI TENGGARA,Kolaka,74.01.04.1001,Lamokato,Kolaka,"kecamatan = ibukota, kelurahan pertama",74.01.04.1002;74.01.01.1001
+74.02,KAB. KONAWE,SULAWESI TENGGARA,Unaaha,74.02.02.1013,Unaaha,Unaaha,kecamatan & desa = ibukota,74.02.02.1001;74.02.01.1001
+74.03,KAB. MUNA,SULAWESI TENGGARA,Raha,74.03.16.1001,Watonea,Katobu,kelurahan pertama di kecamatan paling urban,74.03.16.1002;74.03.06.1004
+74.04,KAB. BUTON,SULAWESI TENGGARA,Pasarwajo,74.04.11.1027,Pasarwajo,Pasarwajo,kecamatan & desa = ibukota,74.04.11.1005;74.04.22.1005
+74.05,KAB. KONAWE SELATAN,SULAWESI TENGGARA,Andolo,74.05.01.1001,Tinanggea,Tinanggea,kelurahan pertama di kecamatan paling urban,74.05.01.1002;74.05.02.2001
+74.06,KAB. BOMBANA,SULAWESI TENGGARA,Rumbia,74.06.04.1002,Lameroro,Rumbia,"kecamatan = ibukota, kelurahan pertama",74.06.04.1003;74.06.01.1007
+74.07,KAB. WAKATOBI,SULAWESI TENGGARA,Wangi-Wangi,74.07.01.1002,Pongo,Wangi-Wangi,"kecamatan = ibukota, kelurahan pertama",74.07.01.1003;74.07.02.1002
+74.08,KAB. KOLAKA UTARA,SULAWESI TENGGARA,Lasusua,74.08.01.1001,Lasusua,Lasusua,kecamatan & desa = ibukota,74.08.01.2002;74.08.02.1001
+74.09,KAB. KONAWE UTARA,SULAWESI TENGGARA,Wanggudu,74.09.01.1005,Wanggudu,Asera,desa = ibukota,74.09.01.1009;74.09.02.1001
+74.10,KAB. BUTON UTARA,SULAWESI TENGGARA,Buranga,74.10.03.1006,Buranga,Bonegunu,desa = ibukota,74.10.03.1010;74.10.01.1008
+74.11,KAB. KOLAKA TIMUR,SULAWESI TENGGARA,Tirawuta,74.11.01.2011,Tirawuta,Tirawuta,kecamatan & desa = ibukota,74.11.01.1002;74.11.02.1001
+74.12,KAB. KONAWE KEPULAUAN,SULAWESI TENGGARA,Langara,74.12.01.1001,Langara Laut,Wawonii Barat,kelurahan pertama di kecamatan paling urban,74.12.01.2002;74.12.02.1008
+74.13,KAB. MUNA BARAT,SULAWESI TENGGARA,Sawerigadi,74.13.01.2001,Wakoila,Sawerigadi,"kecamatan = ibukota, desa pertama",74.13.01.2002;74.13.02.2001
+74.14,KAB. BUTON TENGAH,SULAWESI TENGGARA,Labungkari,74.14.01.1007,Lakudo,Lakudo,kelurahan pertama di kecamatan paling urban,74.14.01.1008;74.14.02.2001
+74.15,KAB. BUTON SELATAN,SULAWESI TENGGARA,Batauga,74.15.01.1002,Busoa,Batauga,"kecamatan = ibukota, kelurahan pertama",74.15.01.1003;74.15.02.1003
+74.71,KOTA KENDARI,SULAWESI TENGGARA,Kendari,74.71.02.1009,Kandai,Kendari,"kecamatan = ibukota, kelurahan pertama",74.71.02.1010;74.71.01.1005
+74.72,KOTA BAU BAU,SULAWESI TENGGARA,Bau-Bau,74.72.02.1001,Wale,Wolio,kelurahan pertama di kecamatan paling urban,74.72.02.1002;74.72.01.1007
+75.01,KAB. GORONTALO,GORONTALO,Gorontalo,75.01.01.1001,Kayubulan,Limboto,kelurahan pertama di kecamatan paling urban,75.01.01.1002;75.01.02.2011
+75.02,KAB. BOALEMO,GORONTALO,Tilamuta,75.02.04.2001,Limbato,Tilamuta,"kecamatan = ibukota, desa pertama",75.02.04.2002;75.02.01.2004
+75.03,KAB. BONE BOLANGO,GORONTALO,Suwawa,75.03.03.2011,Tingkohubu,Suwawa,"kecamatan = ibukota, desa pertama",75.03.03.2012;75.03.01.2004
+75.04,KAB. PAHUWATO,GORONTALO,Marisa,75.04.04.2003,Marisa Selatan,Marisa,"kecamatan = ibukota, desa pertama",75.04.04.2004;75.04.01.2003
+75.05,KAB. GORONTALO UTARA,GORONTALO,Kwandang,75.05.02.2001,Pontolo,Kwandang,"kecamatan = ibukota, desa pertama",75.05.02.2002;75.05.01.2003
+75.71,KOTA GORONTALO,GORONTALO,Gorontalo,75.71.01.1001,Dembe I,Kota Barat,kelurahan pertama di kecamatan paling urban,75.71.01.1002;75.71.02.1010
+76.01,KAB. PASANGKAYU,SULAWESI BARAT,Pasangkayu,76.01.02.1001,Pasangkayu,Pasangkayu,kecamatan & desa = ibukota,76.01.02.1002;76.01.01.1006
+76.02,KAB. MAMUJU,SULAWESI BARAT,Mamuju,76.02.01.1002,Binanga,Mamuju,"kecamatan = ibukota, kelurahan pertama",76.02.01.1003;76.02.02.1001
+76.03,KAB. MAMASA,SULAWESI BARAT,Mamasa,76.03.03.1001,Mamasa,Mamasa,kecamatan & desa = ibukota,76.03.03.2002;76.03.01.1001
+76.04,KAB. POLEWALI MANDAR,SULAWESI BARAT,Polewali,76.04.04.1001,Polewali,Polewali,kecamatan & desa = ibukota,76.04.04.1002;76.04.01.1001
+76.05,KAB. MAJENE,SULAWESI BARAT,Banggae,76.05.01.1001,Banggae,Banggae,kecamatan & desa = ibukota,76.05.01.1003;76.05.02.1001
+76.06,KAB. MAMUJU TENGAH,SULAWESI BARAT,Tobadak,76.06.01.2003,Tobadak,Tobadak,kecamatan & desa = ibukota,76.06.01.2001;76.06.02.2001
+81.01,KAB. MALUKU TENGAH,MALUKU,Masohi,81.01.17.1001,Namaelo,Kota Masohi,"kecamatan = ibukota, kelurahan pertama",81.01.17.1002;81.01.01.1009
+81.02,KAB. MALUKU TENGGARA,MALUKU,Langgur,81.02.01.2014,Langgur,Kei Kecil,desa = ibukota,81.02.01.1013;81.02.03.2001
+81.03,KAB. KEPULAUAN TANIMBAR,MALUKU,,81.03.01.1001,Saumlaki,Tanimbar Selatan,kelurahan pertama di kecamatan paling urban,81.03.01.1002;81.03.02.2001
+81.04,KAB. BURU,MALUKU,Namlea,81.04.01.2001,Namlea,Namlea,kecamatan & desa = ibukota,81.04.01.2002;81.04.02.2004
+81.05,KAB. SERAM BAGIAN TIMUR,MALUKU,Bula,81.05.01.2003,Bula,Bula,kecamatan & desa = ibukota,81.05.01.2004;81.05.02.2001
+81.06,KAB. SERAM BAGIAN BARAT,MALUKU,Piru,81.06.02.2003,Piru,Seram Barat,desa = ibukota,81.06.02.2002;81.06.01.2008
+81.07,KAB. KEPULAUAN ARU,MALUKU,Dobo,81.07.01.1012,Galai Dubu,Pulau-Pulau Aru,kelurahan pertama di kecamatan paling urban,81.07.01.1013;81.07.02.2001
+81.08,KAB. MALUKU BARAT DAYA,MALUKU,Tiakur,81.08.01.1001,Tiakur,Moa Lakor,desa = ibukota,81.08.01.2001;81.08.02.2001
+81.09,KAB. BURU SELATAN,MALUKU,Namrole,81.09.01.2001,Wamkana,Namrole,"kecamatan = ibukota, desa pertama",81.09.01.2002;81.09.02.2001
+81.71,KOTA AMBON,MALUKU,Ambon,81.71.02.1010,Pandan Kasturi,Sirimau,kelurahan pertama di kecamatan paling urban,81.71.02.1011;81.71.01.1006
+81.72,KOTA TUAL,MALUKU,Tual,81.72.02.2001,Tual,Pulau Dullah Selatan,desa = ibukota,81.72.02.1003;81.72.01.2001
+82.01,KAB. HALMAHERA BARAT,MALUKU UTARA,Jailolo,82.01.01.2001,Gufasa,Jailolo,"kecamatan = ibukota, desa pertama",82.01.01.2002;82.01.02.2001
+82.02,KAB. HALMAHERA TENGAH,MALUKU UTARA,Weda,82.02.01.2004,Nusliko,Weda,"kecamatan = ibukota, desa pertama",82.02.01.2005;82.02.02.2004
+82.03,KAB. HALMAHERA UTARA,MALUKU UTARA,Tobelo,82.03.05.2004,Gamsungi,Tobelo,"kecamatan = ibukota, desa pertama",82.03.05.2005;82.03.04.2001
+82.04,KAB. HALMAHERA SELATAN,MALUKU UTARA,Labuha,82.04.08.2001,Labuha,Bacan,desa = ibukota,82.04.08.2002;82.04.01.2001
+82.05,KAB. KEPULAUAN SULA,MALUKU UTARA,Sanana,82.05.02.2001,Mangon,Sanana,"kecamatan = ibukota, desa pertama",82.05.02.2002;82.05.01.2001
+82.06,KAB. HALMAHERA TIMUR,MALUKU UTARA,Maba,82.06.02.2001,Buli,Maba,"kecamatan = ibukota, desa pertama",82.06.02.2002;82.06.01.2006
+82.07,KAB. PULAU MOROTAI,MALUKU UTARA,Daruba,82.07.01.2002,Daruba,Morotai Selatan,desa = ibukota,82.07.01.2001;82.07.02.2001
+82.08,KAB. PULAU TALIABU,MALUKU UTARA,Bobong,82.08.01.2001,Bobong,Taliabu Barat,desa = ibukota,82.08.01.2002;82.08.02.2001
+82.71,KOTA TERNATE,MALUKU UTARA,Ternate,82.71.02.1001,Sasa,Kota Ternate Selatan,kelurahan pertama di kecamatan paling urban,82.71.02.1002;82.71.01.1001
+82.72,KOTA TIDORE KEPULAUAN,MALUKU UTARA,Tidore Kepulauan,82.72.01.1001,Soasio,Tidore,kelurahan pertama di kecamatan paling urban,82.72.01.1002;82.72.02.1002
+91.01,KAB. MERAUKE,PAPUA,Merauke,91.01.01.1002,Samkai,Merauke,"kecamatan = ibukota, kelurahan pertama",91.01.01.1003;91.01.02.2001
+91.02,KAB. JAYAWIJAYA,PAPUA,Wamena,91.02.01.1001,Wamena Kota,Wamena,kecamatan & desa = ibukota,91.02.01.1056;91.02.03.2001
+91.03,KAB. JAYAPURA,PAPUA,Jayapura,91.03.01.1001,Sentani Kota,Sentani,kelurahan pertama di kecamatan paling urban,91.03.01.1002;91.03.02.2001
+91.04,KAB. NABIRE,PAPUA,Nabire,91.04.01.1001,Wonorejo,Nabire,"kecamatan = ibukota, kelurahan pertama",91.04.01.1002;91.04.02.2001
+91.05,KAB. KEPULAUAN YAPEN,PAPUA,Serui,91.05.01.1005,Serui Kota,Yapen Selatan,desa = ibukota,91.05.01.1004;91.05.02.1003
+91.06,KAB. BIAK NUMFOR,PAPUA,Biak,91.06.01.1001,Sorido,Biak Kota,"kecamatan = ibukota, kelurahan pertama",91.06.01.1002;91.06.02.2001
+91.07,KAB. PUNCAK JAYA,PAPUA,Mulia,91.07.01.1059,Wuyukwi,Mulia,"kecamatan = ibukota, kelurahan pertama",91.07.01.1060;91.07.03.1070
+91.08,KAB. PANIAI,PAPUA,Enarotali,91.08.01.1003,Enarotali,Paniai Timur,desa = ibukota,91.08.01.1023;91.08.02.1001
+91.09,KAB. MIMIKA,PAPUA,Timika,91.09.01.1001,Koperapoka,Mimika Baru,kelurahan pertama di kecamatan paling urban,91.09.01.1002;91.09.02.2001
+91.10,KAB. SARMI,PAPUA,Sarmi,91.10.01.1002,Sarmi Kota,Sarmi,kecamatan & desa = ibukota,91.10.01.1001;91.10.02.2001
+91.11,KAB. KEEROM,PAPUA,Waris,91.11.01.2001,Banda,Waris,"kecamatan = ibukota, desa pertama",91.11.01.2002;91.11.02.2001
+91.12,KAB PEGUNUNGAN BINTANG,PAPUA,Oksibil,91.12.01.2001,Kabiding,Oksibil,"kecamatan = ibukota, desa pertama",91.12.01.2017;91.12.02.2001
+91.13,KAB. YAHUKIMO,PAPUA,Sumohai,91.13.01.1001,Obolma,Kurima,kelurahan pertama di kecamatan paling urban,91.13.01.2003;91.13.02.2001
+91.14,KAB. TOLIKARA,PAPUA,Karubaga,91.14.01.1001,Karubaga,Karubaga,kecamatan & desa = ibukota,91.14.01.2010;91.14.02.1001
+91.15,KAB. WAROPEN,PAPUA,Botawa,91.15.11.2001,Botawa,Oudate,desa = ibukota,91.15.11.2002;91.15.01.2003
+91.16,KAB. BOVEN DIGOEL,PAPUA,Tanah Merah,91.16.01.2003,Ampera,Mandobo,desa pertama (cadangan terakhir),91.16.01.2004;91.16.02.2001
+91.17,KAB. MAPPI,PAPUA,Kepi,91.17.01.1022,Kepi,Obaa,desa = ibukota,91.17.01.2001;91.17.02.2001
+91.18,KAB. ASMAT,PAPUA,Agats,91.18.01.2001,Yomoth,Agats,"kecamatan = ibukota, desa pertama",91.18.01.2002;91.18.02.2001
+91.19,KAB. SUPIORI,PAPUA,Sorendiweri,91.19.01.2003,Fanindi,Supiori Selatan,desa pertama (cadangan terakhir),91.19.01.2004;91.19.02.2003
+91.20,KAB. MAMBERAMO RAYA,PAPUA,Burmeso,91.20.01.2001,Burmeso,Mamberamo Tengah,desa = ibukota,91.20.01.2002;91.20.02.2001
+91.21,KAB. MAMBERAMO TENGAH,PAPUA,Kobakma,91.21.01.2001,Kobagma,Kobagma,desa pertama (cadangan terakhir),91.21.01.2002;91.21.02.2001
+91.22,KAB. YALIMO,PAPUA,Elelim,91.22.01.2001,Elelim,Elelim,kecamatan & desa = ibukota,91.22.01.2002;91.22.02.2001
+91.23,KAB. LANNY JAYA,PAPUA,Tiom,91.23.01.1001,Bokon,Tiom,"kecamatan = ibukota, kelurahan pertama",91.23.01.2003;91.23.02.2002
+91.24,KAB. NDUGA,PAPUA,Kenyam,91.24.01.2001,Kenyam,Kenyam,kecamatan & desa = ibukota,91.24.01.2008;91.24.02.2001
+91.25,KAB. PUNCAK,PAPUA,Ilaga,91.25.01.2002,Kago,Ilaga,"kecamatan = ibukota, desa pertama",91.25.01.2006;91.25.02.2001
+91.26,KAB. DOGIYAI,PAPUA,Kigamani,91.26.10.2002,Kigamani,Dogiyai,desa = ibukota,91.26.10.2001;91.26.01.2001
+91.27,KAB. INTAN JAYA,PAPUA,Sugapa,91.27.01.2001,Emondi,Sugapa,"kecamatan = ibukota, desa pertama",91.27.01.2002;91.27.02.2001
+91.28,KAB. DEIYAI,PAPUA,Tigi,91.28.01.2001,Waghete I,Tigi,"kecamatan = ibukota, desa pertama",91.28.01.2002;91.28.02.2001
+91.71,KOTA JAYAPURA,PAPUA,Jayapura,91.71.03.1002,Asano,Abepura,kelurahan pertama di kecamatan paling urban,91.71.03.1008;91.71.01.1001
+92.01,KAB. SORONG,PAPUA BARAT,Sorong,92.01.43.2001,Maibo,Sorong,"kecamatan = ibukota, desa pertama",92.01.43.2002;92.01.01.1001
+92.02,KAB. MANOKWARI,PAPUA BARAT,Manokwari,92.02.12.1001,Manokwari Barat,Manokwari Barat,kelurahan pertama di kecamatan paling urban,92.02.12.1002;92.02.03.2001
+92.03,KAB. FAK FAK,PAPUA BARAT,Fakfak,92.03.01.1001,Fak Fak Selatan,Fak-Fak,"kecamatan = ibukota, kelurahan pertama",92.03.01.1002;92.03.02.2001
+92.04,KAB. SORONG SELATAN,PAPUA BARAT,Teminabuan,92.04.01.1005,Kaibus,Teminabuan,"kecamatan = ibukota, kelurahan pertama",92.04.01.1006;92.04.04.2001
+92.05,KAB. RAJA AMPAT,PAPUA BARAT,Waisai,92.05.18.1001,Waisai,Kota Waisai,kecamatan & desa = ibukota,92.05.18.1002;92.05.01.2001
+92.06,KAB. TELUK BINTUNI,PAPUA BARAT,Bintuni,92.06.01.1001,Bintuni Timur,Bintuni,"kecamatan = ibukota, kelurahan pertama",92.06.01.1002;92.06.02.2001
+92.07,KAB. TELUK WONDAMA,PAPUA BARAT,Rasiei,92.07.08.2001,Rasiei,Rasiei,kecamatan & desa = ibukota,92.07.08.2002;92.07.01.1001
+92.08,KAB. KAIMANA,PAPUA BARAT,Kaimana,92.08.01.1001,Kaimana Kota,Kaimana,kecamatan & desa = ibukota,92.08.01.1014;92.08.02.2001
+92.09,KAB. TAMBRAUW,PAPUA BARAT,Fef,92.09.01.2001,Fef,Fef,kecamatan & desa = ibukota,92.09.01.2003;92.09.02.2001
+92.10,KAB. MAYBRAT,PAPUA BARAT,Kumurkek,92.10.01.2001,Kumurkek,Aifat,desa = ibukota,92.10.01.2002;92.10.02.2001
+92.11,KAB. MANOKWARI SELATAN,PAPUA BARAT,Ransiki,92.11.01.2001,Ransiki,Ransiki,kecamatan & desa = ibukota,92.11.01.2002;92.11.02.2001
+92.12,KAB. PEGUNUNGAN ARFAK,PAPUA BARAT,Anggi,92.12.01.2001,Iraiweri,Anggi,"kecamatan = ibukota, desa pertama",92.12.01.2002;92.12.02.2001
+92.71,KOTA SORONG,PAPUA BARAT,Sorong,92.71.01.1001,Remu Utara,Sorong,"kecamatan = ibukota, kelurahan pertama",92.71.01.1002;92.71.02.1008

@@ -1,0 +1,29 @@
+name: Arsip peringatan dini BMKG (tiap 30 menit)
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"     # tiap 30 menit; GitHub bisa terlambat 5-30 menit saat ramai
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: arsip-nowcast
+  cancel-in-progress: false
+
+jobs:
+  rekam:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install -q -r requirements.txt
+      - name: Rekam peringatan dini cuaca se-Indonesia
+        run: python src/bmkg_nowcast.py
+        continue-on-error: true
+      - name: Simpan ke repo
+        run: bash tools/simpan.sh "nowcast"

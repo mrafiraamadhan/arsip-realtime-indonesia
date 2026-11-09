@@ -1,0 +1,49 @@
+name: Arsip harian (prakiraan BMKG 514 kab/kota, halaman harga, tiket pesawat)
+
+on:
+  schedule:
+    - cron: "17 23 * * *"      # 06.17 WIB
+    - cron: "17 11 * * *"      # 18.17 WIB
+  workflow_dispatch:
+    inputs:
+      batas:
+        description: "Uji cepat: berapa titik pertama saja? (0 = semua 514)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: arsip-harian
+  cancel-in-progress: false
+
+jobs:
+  rekam:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install -q -r requirements.txt
+      - name: Rekam prakiraan cuaca 514 kab/kota
+        run: python src/bmkg_prakiraan.py --batas "${{ github.event.inputs.batas || 0 }}"
+        continue-on-error: true
+      - name: Uji API gelombang (sekali sehari, run pagi)
+        if: github.event.schedule == '17 23 * * *' || github.event_name == 'workflow_dispatch'
+        run: python src/bmkg_gelombang_uji.py
+        continue-on-error: true
+      - name: Halaman harga resmi tanpa riwayat (BBM, emas) - run pagi
+        if: github.event.schedule == '17 23 * * *' || github.event_name == 'workflow_dispatch'
+        run: python src/pantau_halaman.py
+        continue-on-error: true
+      - name: Harga tiket pesawat (aktif bila secret SERPAPI_KEY ada) - run pagi
+        if: github.event.schedule == '17 23 * * *' || github.event_name == 'workflow_dispatch'
+        run: python src/tiket_pesawat.py
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        continue-on-error: true
+      - name: Simpan ke repo
+        run: bash tools/simpan.sh "harian"
