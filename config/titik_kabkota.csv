@@ -18,7 +18,7 @@ kode_kabkota,kabkota,provinsi,ibukota,adm4,desa,kecamatan,metode,adm4_cadangan
 11.17,KAB. BENER MERIAH,ACEH,Simpang Tiga Redelong,11.17.01.2001,Blang Rakal,Pintu Rime Gayo,desa pertama (cadangan terakhir),11.17.01.2002;11.17.02.2001
 11.18,KAB. PIDIE JAYA,ACEH,Meureudu,11.18.01.2002,Kota Meureudu,Meureudu,kecamatan & desa = ibukota,11.18.01.2001;11.18.02.2001
 11.71,KOTA BANDA ACEH,ACEH,Banda Aceh,11.71.01.2001,Kampung Baru,Baiturrahman,desa pertama (cadangan terakhir),11.71.01.2002;11.71.02.2001
-11.72,KOTA SABANG,ACEH,Sabang,11.72.01.2001,Iboih,Sukakarya,desa pertama (cadangan terakhir),11.72.01.2002;11.72.02.2001
+11.72,Kota Sabang,Aceh,Sabang,11.72.01.2004,Krueng Raya,Sukakarya,kode 2025: desa pertama (cadangan terakhir),11.72.01.2005;11.72.02.2004
 11.73,KOTA LHOKSEUMAWE,ACEH,Lhokseumawe,11.73.02.2005,Kota Lhokseumawe,Banda Sakti,desa = ibukota,11.73.02.2001;11.73.01.2002
 11.74,KOTA LANGSA,ACEH,Langsa,11.74.03.2001,Teungoh,Langsa Kota,"kecamatan = ibukota, desa pertama",11.74.03.2002;11.74.01.2007
 11.75,KOTA SUBULUSSALAM,ACEH,Subulussalam,11.75.01.2001,Subulussalam,Simpang Kiri,desa = ibukota,11.75.01.2002;11.75.02.2001
@@ -471,45 +471,45 @@ kode_kabkota,kabkota,provinsi,ibukota,adm4,desa,kecamatan,metode,adm4_cadangan
 82.08,KAB. PULAU TALIABU,MALUKU UTARA,Bobong,82.08.01.2001,Bobong,Taliabu Barat,desa = ibukota,82.08.01.2002;82.08.02.2001
 82.71,KOTA TERNATE,MALUKU UTARA,Ternate,82.71.02.1001,Sasa,Kota Ternate Selatan,kelurahan pertama di kecamatan paling urban,82.71.02.1002;82.71.01.1001
 82.72,KOTA TIDORE KEPULAUAN,MALUKU UTARA,Tidore Kepulauan,82.72.01.1001,Soasio,Tidore,kelurahan pertama di kecamatan paling urban,82.72.01.1002;82.72.02.1002
-91.01,KAB. MERAUKE,PAPUA,Merauke,91.01.01.1002,Samkai,Merauke,"kecamatan = ibukota, kelurahan pertama",91.01.01.1003;91.01.02.2001
-91.02,KAB. JAYAWIJAYA,PAPUA,Wamena,91.02.01.1001,Wamena Kota,Wamena,kecamatan & desa = ibukota,91.02.01.1056;91.02.03.2001
+93.01,Kabupaten Merauke,Papua Selatan,Merauke,93.01.01.1002,Samkai,Merauke,"kode 2025: kecamatan = ibukota, kelurahan pertama",93.01.01.1003;93.01.02.2001
+95.01,Kabupaten Jayawijaya,Papua Pegunungan,Wamena,95.01.01.1001,Wamena Kota,Wamena,kode 2025: kecamatan & desa = ibukota,95.01.01.1006;95.01.02.2001
 91.03,KAB. JAYAPURA,PAPUA,Jayapura,91.03.01.1001,Sentani Kota,Sentani,kelurahan pertama di kecamatan paling urban,91.03.01.1002;91.03.02.2001
-91.04,KAB. NABIRE,PAPUA,Nabire,91.04.01.1001,Wonorejo,Nabire,"kecamatan = ibukota, kelurahan pertama",91.04.01.1002;91.04.02.2001
+94.01,Kabupaten Nabire,Papua Tengah,Nabire,94.01.01.1001,Wonorejo,Nabire,"kode 2025: kecamatan = ibukota, kelurahan pertama",94.01.01.1002;94.01.02.2001
 91.05,KAB. KEPULAUAN YAPEN,PAPUA,Serui,91.05.01.1005,Serui Kota,Yapen Selatan,desa = ibukota,91.05.01.1004;91.05.02.1003
 91.06,KAB. BIAK NUMFOR,PAPUA,Biak,91.06.01.1001,Sorido,Biak Kota,"kecamatan = ibukota, kelurahan pertama",91.06.01.1002;91.06.02.2001
-91.07,KAB. PUNCAK JAYA,PAPUA,Mulia,91.07.01.1059,Wuyukwi,Mulia,"kecamatan = ibukota, kelurahan pertama",91.07.01.1060;91.07.03.1070
-91.08,KAB. PANIAI,PAPUA,Enarotali,91.08.01.1003,Enarotali,Paniai Timur,desa = ibukota,91.08.01.1023;91.08.02.1001
-91.09,KAB. MIMIKA,PAPUA,Timika,91.09.01.1001,Koperapoka,Mimika Baru,kelurahan pertama di kecamatan paling urban,91.09.01.1002;91.09.02.2001
+94.02,Kabupaten Puncak Jaya,Papua Tengah,Mulia,94.02.01.1010,Wuyukwi,Mulia,"kode 2025: kecamatan = ibukota, kelurahan pertama",94.02.01.1011;94.02.02.1021
+94.03,Kabupaten Paniai,Papua Tengah,Enarotali,94.03.01.1001,Enarotali,Paniai Timur,kode 2025: desa = ibukota,94.03.01.1006;94.03.02.1001
+94.04,Kabupaten Mimika,Papua Tengah,Timika,94.04.01.1001,Koperapoka,Mimika Baru,kode 2025: kelurahan pertama di kecamatan paling urban,94.04.01.1002;94.04.02.2001
 91.10,KAB. SARMI,PAPUA,Sarmi,91.10.01.1002,Sarmi Kota,Sarmi,kecamatan & desa = ibukota,91.10.01.1001;91.10.02.2001
 91.11,KAB. KEEROM,PAPUA,Waris,91.11.01.2001,Banda,Waris,"kecamatan = ibukota, desa pertama",91.11.01.2002;91.11.02.2001
-91.12,KAB PEGUNUNGAN BINTANG,PAPUA,Oksibil,91.12.01.2001,Kabiding,Oksibil,"kecamatan = ibukota, desa pertama",91.12.01.2017;91.12.02.2001
-91.13,KAB. YAHUKIMO,PAPUA,Sumohai,91.13.01.1001,Obolma,Kurima,kelurahan pertama di kecamatan paling urban,91.13.01.2003;91.13.02.2001
-91.14,KAB. TOLIKARA,PAPUA,Karubaga,91.14.01.1001,Karubaga,Karubaga,kecamatan & desa = ibukota,91.14.01.2010;91.14.02.1001
+95.02,Kabupaten Pegunungan Bintang,Papua Pegunungan,Oksibil,95.02.01.2001,Kabiding,Oksibil,"kode 2025: kecamatan = ibukota, desa pertama",95.02.01.2002;95.02.02.2001
+95.03,Kabupaten Yahukimo,Papua Pegunungan,Sumohai,95.03.01.1001,Obolma,Kurima,kode 2025: kelurahan pertama di kecamatan paling urban,95.03.01.2002;95.03.02.2001
+95.04,Kabupaten Tolikara,Papua Pegunungan,Karubaga,95.04.01.1001,Karubaga,Karubaga,kode 2025: kecamatan & desa = ibukota,95.04.01.2002;95.04.02.1001
 91.15,KAB. WAROPEN,PAPUA,Botawa,91.15.11.2001,Botawa,Oudate,desa = ibukota,91.15.11.2002;91.15.01.2003
-91.16,KAB. BOVEN DIGOEL,PAPUA,Tanah Merah,91.16.01.2003,Ampera,Mandobo,desa pertama (cadangan terakhir),91.16.01.2004;91.16.02.2001
-91.17,KAB. MAPPI,PAPUA,Kepi,91.17.01.1022,Kepi,Obaa,desa = ibukota,91.17.01.2001;91.17.02.2001
-91.18,KAB. ASMAT,PAPUA,Agats,91.18.01.2001,Yomoth,Agats,"kecamatan = ibukota, desa pertama",91.18.01.2002;91.18.02.2001
+93.02,Kabupaten Boven Digoel,Papua Selatan,Tanah Merah,93.02.01.2001,Ampera,Mandobo,kode 2025: desa pertama (cadangan terakhir),93.02.01.2002;93.02.02.2001
+93.03,Kabupaten Mappi,Papua Selatan,Kepi,93.03.01.1013,Kepi,Obaa,kode 2025: desa = ibukota,93.03.01.2001;93.03.02.2001
+93.04,Kabupaten Asmat,Papua Selatan,Agats,93.04.01.2001,Yomoth,Agats,"kode 2025: kecamatan = ibukota, desa pertama",93.04.01.2002;93.04.02.2001
 91.19,KAB. SUPIORI,PAPUA,Sorendiweri,91.19.01.2003,Fanindi,Supiori Selatan,desa pertama (cadangan terakhir),91.19.01.2004;91.19.02.2003
 91.20,KAB. MAMBERAMO RAYA,PAPUA,Burmeso,91.20.01.2001,Burmeso,Mamberamo Tengah,desa = ibukota,91.20.01.2002;91.20.02.2001
-91.21,KAB. MAMBERAMO TENGAH,PAPUA,Kobakma,91.21.01.2001,Kobagma,Kobagma,desa pertama (cadangan terakhir),91.21.01.2002;91.21.02.2001
-91.22,KAB. YALIMO,PAPUA,Elelim,91.22.01.2001,Elelim,Elelim,kecamatan & desa = ibukota,91.22.01.2002;91.22.02.2001
-91.23,KAB. LANNY JAYA,PAPUA,Tiom,91.23.01.1001,Bokon,Tiom,"kecamatan = ibukota, kelurahan pertama",91.23.01.2003;91.23.02.2002
-91.24,KAB. NDUGA,PAPUA,Kenyam,91.24.01.2001,Kenyam,Kenyam,kecamatan & desa = ibukota,91.24.01.2008;91.24.02.2001
-91.25,KAB. PUNCAK,PAPUA,Ilaga,91.25.01.2002,Kago,Ilaga,"kecamatan = ibukota, desa pertama",91.25.01.2006;91.25.02.2001
-91.26,KAB. DOGIYAI,PAPUA,Kigamani,91.26.10.2002,Kigamani,Dogiyai,desa = ibukota,91.26.10.2001;91.26.01.2001
-91.27,KAB. INTAN JAYA,PAPUA,Sugapa,91.27.01.2001,Emondi,Sugapa,"kecamatan = ibukota, desa pertama",91.27.01.2002;91.27.02.2001
-91.28,KAB. DEIYAI,PAPUA,Tigi,91.28.01.2001,Waghete I,Tigi,"kecamatan = ibukota, desa pertama",91.28.01.2002;91.28.02.2001
+95.05,Kabupaten Mamberamo Tengah,Papua Pegunungan,Kobakma,95.05.01.2001,Kobakma,Kobakma,kode 2025: kecamatan & desa = ibukota,95.05.01.2002;95.05.02.2001
+95.06,Kabupaten Yalimo,Papua Pegunungan,Elelim,95.06.01.2001,Elelim,Elelim,kode 2025: kecamatan & desa = ibukota,95.06.01.2002;95.06.02.2001
+95.07,Kabupaten Lanny Jaya,Papua Pegunungan,Tiom,95.07.01.1001,Bokon,Tiom,"kode 2025: kecamatan = ibukota, kelurahan pertama",95.07.01.2002;95.07.02.2001
+95.08,Kabupaten Nduga,Papua Pegunungan,Kenyam,95.08.01.2001,Kenyam,Kenyam,kode 2025: kecamatan & desa = ibukota,95.08.01.2002;95.08.02.2001
+94.05,Kabupaten Puncak,Papua Tengah,Ilaga,94.05.01.2001,Kago,Ilaga,"kode 2025: kecamatan = ibukota, desa pertama",94.05.01.2002;94.05.02.2001
+94.06,Kabupaten Dogiyai,Papua Tengah,Kigamani,94.06.10.2002,Kigamani,Dogiyai,kode 2025: desa = ibukota,94.06.10.2001;94.06.01.2001
+94.07,Kabupaten Intan Jaya,Papua Tengah,Sugapa,94.07.01.2001,Emondi,Sugapa,"kode 2025: kecamatan = ibukota, desa pertama",94.07.01.2002;94.07.02.2001
+94.08,Kabupaten Deiyai,Papua Tengah,Tigi,94.08.01.2001,Waghete I,Tigi,"kode 2025: kecamatan = ibukota, desa pertama",94.08.01.2002;94.08.02.2001
 91.71,KOTA JAYAPURA,PAPUA,Jayapura,91.71.03.1002,Asano,Abepura,kelurahan pertama di kecamatan paling urban,91.71.03.1008;91.71.01.1001
 92.01,KAB. SORONG,PAPUA BARAT,Sorong,92.01.43.2001,Maibo,Sorong,"kecamatan = ibukota, desa pertama",92.01.43.2002;92.01.01.1001
 92.02,KAB. MANOKWARI,PAPUA BARAT,Manokwari,92.02.12.1001,Manokwari Barat,Manokwari Barat,kelurahan pertama di kecamatan paling urban,92.02.12.1002;92.02.03.2001
 92.03,KAB. FAK FAK,PAPUA BARAT,Fakfak,92.03.01.1001,Fak Fak Selatan,Fak-Fak,"kecamatan = ibukota, kelurahan pertama",92.03.01.1002;92.03.02.2001
-92.04,KAB. SORONG SELATAN,PAPUA BARAT,Teminabuan,92.04.01.1005,Kaibus,Teminabuan,"kecamatan = ibukota, kelurahan pertama",92.04.01.1006;92.04.04.2001
-92.05,KAB. RAJA AMPAT,PAPUA BARAT,Waisai,92.05.18.1001,Waisai,Kota Waisai,kecamatan & desa = ibukota,92.05.18.1002;92.05.01.2001
+96.02,Kabupaten Sorong Selatan,Papua Barat Daya,Teminabuan,96.02.01.1002,Kaibus,Teminabuan,"kode 2025: kecamatan = ibukota, kelurahan pertama",96.02.01.1003;96.02.02.2001
+96.03,Kabupaten Raja Ampat,Papua Barat Daya,Waisai,96.03.17.1001,Waisai,Kota Waisai,kode 2025: kecamatan & desa = ibukota,96.03.17.1002;96.03.01.2001
 92.06,KAB. TELUK BINTUNI,PAPUA BARAT,Bintuni,92.06.01.1001,Bintuni Timur,Bintuni,"kecamatan = ibukota, kelurahan pertama",92.06.01.1002;92.06.02.2001
 92.07,KAB. TELUK WONDAMA,PAPUA BARAT,Rasiei,92.07.08.2001,Rasiei,Rasiei,kecamatan & desa = ibukota,92.07.08.2002;92.07.01.1001
 92.08,KAB. KAIMANA,PAPUA BARAT,Kaimana,92.08.01.1001,Kaimana Kota,Kaimana,kecamatan & desa = ibukota,92.08.01.1014;92.08.02.2001
-92.09,KAB. TAMBRAUW,PAPUA BARAT,Fef,92.09.01.2001,Fef,Fef,kecamatan & desa = ibukota,92.09.01.2003;92.09.02.2001
-92.10,KAB. MAYBRAT,PAPUA BARAT,Kumurkek,92.10.01.2001,Kumurkek,Aifat,desa = ibukota,92.10.01.2002;92.10.02.2001
+96.04,Kabupaten Tambrauw,Papua Barat Daya,Fef,96.04.01.2001,Fef,Fef,kode 2025: kecamatan & desa = ibukota,96.04.01.2002;96.04.02.2001
+96.05,Kabupaten Maybrat,Papua Barat Daya,Kumurkek,96.05.01.2001,Kumurkek,Aifat,kode 2025: desa = ibukota,96.05.01.2002;96.05.02.2001
 92.11,KAB. MANOKWARI SELATAN,PAPUA BARAT,Ransiki,92.11.01.2001,Ransiki,Ransiki,kecamatan & desa = ibukota,92.11.01.2002;92.11.02.2001
 92.12,KAB. PEGUNUNGAN ARFAK,PAPUA BARAT,Anggi,92.12.01.2001,Iraiweri,Anggi,"kecamatan = ibukota, desa pertama",92.12.01.2002;92.12.02.2001
-92.71,KOTA SORONG,PAPUA BARAT,Sorong,92.71.01.1001,Remu Utara,Sorong,"kecamatan = ibukota, kelurahan pertama",92.71.01.1002;92.71.02.1008
+96.71,Kota Sorong,Papua Barat Daya,Sorong,96.71.01.1001,Remu Utara,Sorong,"kode 2025: kecamatan = ibukota, kelurahan pertama",96.71.01.1002;96.71.02.1001

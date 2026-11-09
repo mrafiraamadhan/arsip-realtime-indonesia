@@ -12,7 +12,7 @@ Titik  : config/titik_kabkota.csv (satu desa/kelurahan di ibukota tiap kab/kota;
 Keluaran: arsip/bmkg_prakiraan/YYYY/MM/YYYY-MM-DD_HHMMZ.csv.gz (satu berkas per run)
           + satu baris ringkasan di log/<sumber>_YYYY-MM.csv
 
-    python src/bmkg_prakiraan.py [--batas N]   # --batas untuk uji cepat N titik pertama
+    python src/bmkg_prakiraan.py [--batas N] [--hanya 93.01,96.71]   # uji cepat
 """
 import argparse
 import csv
@@ -53,9 +53,13 @@ def urai(payload: dict, dasar: dict, diambil: str) -> list:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--batas", type=int, default=0)
+    ap.add_argument("--hanya", default="", help="uji kab/kota tertentu, mis. 93.01,96.71")
     a = ap.parse_args()
 
     titik = list(csv.DictReader(open(os.path.join(U.ROOT, "config", "titik_kabkota.csv"), encoding="utf-8")))
+    if a.hanya.strip():
+        pilih = {k.strip() for k in a.hanya.split(",")}
+        titik = [w for w in titik if w["kode_kabkota"] in pilih]
     if a.batas:
         titik = titik[:a.batas]
     t0 = U.kini()

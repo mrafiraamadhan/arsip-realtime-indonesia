@@ -49,7 +49,7 @@ python tools/gabung.py --dari 2026-11-01 --sampai 2026-11-30 --kab 64.72,34.71 >
 
 - `diambil_utc` adalah waktu prakiraan itu terlihat. `utc_datetime` adalah waktu yang diprakirakan. Selisih keduanya adalah jarak prakiraan, yang dipakai untuk menguji "berapa hari sebelumnya BMKG sudah memperingatkan".
 - **Nowcast.** `ringkasan_YYYY-MM.csv` berisi satu baris per peringatan. Berkas `.jsonl.gz` menyimpan dokumen CAP aslinya, utuh kecuali isi poligon kecamatan yang diganti jumlah titiknya. Poligon itu sama dengan batas kecamatan yang tersedia di data batas wilayah, dan ukurannya bisa puluhan KB per peringatan.
-- **Daftar titik.** Daftar titik ada di `config/titik_kabkota.csv`, dan kolom `metode` mencatat cara tiap titik dipilih. Kode wilayah mengikuti Kepmendagri 2022 karena edisi itu yang dipakai API BMKG. Bila kode utama ditolak, kode cadangan dipakai otomatis dan tercatat di log. Untuk membangun ulang, jalankan `tools/bangun_titik.py`.
+- **Daftar titik.** Daftar titik ada di `config/titik_kabkota.csv`, dan kolom `metode` mencatat cara tiap titik dipilih. Kode wilayah mengikuti Kepmendagri 2022 karena edisi itu yang dipakai API BMKG. Bila kode utama ditolak, kode cadangan dipakai otomatis dan tercatat di log. Untuk membangun ulang, jalankan `tools/bangun_titik.py`. Titik di provinsi hasil pemekaran Papua dan Kota Sabang memakai kode 2025, karena BMKG sudah memakai kode baru untuk wilayah itu (lihat `tools/perbaiki_titik.py`).
 
 ## Perkiraan ukuran
 

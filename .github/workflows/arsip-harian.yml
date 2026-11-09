@@ -10,6 +10,10 @@ on:
         description: "Uji cepat: berapa titik pertama saja? (0 = semua 514)"
         required: false
         default: "0"
+      hanya:
+        description: "Uji kab/kota tertentu saja (kode dipisah koma, mis. 93.01,96.71). Kosong = semua"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -29,7 +33,7 @@ jobs:
           python-version: "3.11"
       - run: pip install -q -r requirements.txt
       - name: Rekam prakiraan cuaca 514 kab/kota
-        run: python src/bmkg_prakiraan.py --batas "${{ github.event.inputs.batas || 0 }}"
+        run: python src/bmkg_prakiraan.py --batas "${{ github.event.inputs.batas || 0 }}" --hanya "${{ github.event.inputs.hanya || '' }}"
         continue-on-error: true
       - name: Uji API gelombang (sekali sehari, run pagi)
         if: github.event.schedule == '17 23 * * *' || github.event_name == 'workflow_dispatch'

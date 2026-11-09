@@ -35,8 +35,28 @@ def norm(s):
     return re.sub(r"[^A-Z0-9]", "", s)
 
 
+def baca_ibukota(sql_level12):
+    txt = open(sql_level12, encoding="utf-8").read()
+    return {norm(nm): ibk.strip() for _, nm, ibk in re.findall(r"\('(\d\d\.\d\d)','([^']*)','([^']*)'", txt)}
+
+
+def baca_wilayah_sql(sql):
+    """db/wilayah.sql (Kepmendagri 2025) -> [(kode, nama)]."""
+    txt = open(sql, encoding="utf-8").read()
+    return [(k, v.replace("''", "'")) for k, v in re.findall(r"\('([\d.]+)','((?:[^']|'')*)'\)", txt)]
+
+
 def main(base_csv, sql):
     rows = [r for r in csv.reader(open(base_csv, encoding="utf-8")) if r and r[0][:1].isdigit()]
+    out = bangun(rows, baca_ibukota(sql))
+    with open("config/titik_kabkota.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(out[0].keys()))
+        w.writeheader()
+        w.writerows(out)
+    print(len(out), "kab/kota;", collections.Counter(r["metode"] for r in out))
+
+
+def bangun(rows, ibukota):
     nama = {r[0]: r[1].strip() for r in rows}
     prov = {k: v for k, v in nama.items() if k.count(".") == 0}
     kab = {k: v for k, v in nama.items() if k.count(".") == 1}
@@ -47,11 +67,6 @@ def main(base_csv, sql):
             kec[k[:5]].append(k)
         elif k.count(".") == 3:
             desa[k[:8]].append(k)
-
-    txt = open(sql, encoding="utf-8").read()
-    ibukota = {}
-    for kode, nm, ibk in re.findall(r"\('(\d\d\.\d\d)','([^']*)','([^']*)'", txt):
-        ibukota[norm(nm)] = ibk.strip()
 
     out = []
     for k, nm in sorted(kab.items()):
@@ -99,11 +114,7 @@ def main(base_csv, sql):
             "kecamatan": nama.get(pilih[:8], ""), "metode": metode,
             "adm4_cadangan": ";".join(cad),
         })
-    with open("config/titik_kabkota.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(out[0].keys()))
-        w.writeheader()
-        w.writerows(out)
-    print(len(out), "kab/kota;", collections.Counter(r["metode"] for r in out))
+    return out
 
 
 if __name__ == "__main__":
