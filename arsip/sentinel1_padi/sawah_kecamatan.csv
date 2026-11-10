@@ -1,79 +1,79 @@
-kode_wilayah,kabupaten,kecamatan,piksel_zona,piksel_sawah,ha_sawah_s1
-340205,Bantul,Bambanglipuro,11262,1635,318.9
-340212,Bantul,Banguntapan,14732,1182,230.6
-340208,Bantul,Bantul,11236,2119,413.4
-340408,Sleman,Berbah,13286,817,159.4
-340417,Sleman,Cangkringan,22802,1691,329.9
-347104,Kota Yogyakarta,Danurejan,578,95,18.5
-340407,Sleman,Depok,15741,1883,367.3
-340211,Bantul,Dlingo,31300,2918,569.2
-340104,Kulon Progo,Galur,16426,6016,1173.6
-340401,Sleman,Gamping,14623,1279,249.5
-340314,Gunungkidul,Gedangsari,34663,1001,195.3
-347105,Kota Yogyakarta,Gedongtengen,497,58,11.3
-340109,Kulon Progo,Girimulyo,28338,5312,1036.2
-340316,Gunungkidul,Girisubo,47425,3034,591.9
-340402,Sleman,Godean,13601,850,165.8
-347103,Kota Yogyakarta,Gondokusuman,2104,245,47.8
-347110,Kota Yogyakarta,Gondomanan,606,105,20.5
-340210,Bantul,Imogiri,27627,4732,923.1
-340209,Bantul,Jetis,12573,2279,444.6
-347102,Kota Yogyakarta,Jetis,881,123,24.0
-340410,Sleman,Kalasan,18205,477,93.1
-340112,Kulon Progo,Kalibawang,26603,3626,707.3
-340309,Gunungkidul,Karangmojo,39955,2751,536.7
-340216,Bantul,Kasihan,16745,1223,238.6
-340108,Kulon Progo,Kokap,36328,153,29.8
-347114,Kota Yogyakarta,Kotagede,1516,136,26.5
-347109,Kota Yogyakarta,Kraton,724,40,7.8
-340203,Bantul,Kretek,13307,3900,760.8
-340105,Kulon Progo,Lendah,19242,2152,419.8
-347108,Kota Yogyakarta,Mantrijeron,1318,109,21.3
-347112,Kota Yogyakarta,Mergangsan,1239,101,19.7
-340404,Sleman,Minggir,13752,933,182.0
-340406,Sleman,Mlati,14997,1514,295.3
-340403,Sleman,Moyudan,13956,890,173.6
-340110,Kulon Progo,Nanggulan,19686,2086,406.9
-340412,Sleman,Ngaglik,19555,1474,287.5
-347106,Kota Yogyakarta,Ngampilan,415,50,9.8
-340313,Gunungkidul,Ngawen,24784,1166,227.5
-340411,Sleman,Ngemplak,19003,444,86.6
-340302,Gunungkidul,Nglipar,38770,4814,939.1
-340207,Bantul,Pajangan,17186,1634,318.8
-340416,Sleman,Pakem,27023,4458,869.7
-347111,Kota Yogyakarta,Pakualaman,317,38,7.4
-340305,Gunungkidul,Paliyan,30221,6713,1309.5
-340206,Bantul,Pandak,12708,2008,391.7
-340306,Gunungkidul,Panggang,49624,9675,1887.4
-340103,Kulon Progo,Panjatan,22799,903,176.2
-340304,Gunungkidul,Patuk,36596,1652,322.3
-340107,Kulon Progo,Pengasih,28502,2112,412.0
-340214,Bantul,Piyungan,17182,1521,296.7
-340303,Gunungkidul,Playen,53143,6532,1274.2
-340213,Bantul,Pleret,11963,1208,235.7
-340310,Gunungkidul,Ponjong,54360,3812,743.6
-340409,Sleman,Prambanan,20952,671,130.9
-340204,Bantul,Pundong,12769,3302,644.1
-340318,Gunungkidul,Purwosari,34517,8878,1731.9
-340311,Gunungkidul,Rongkop,41928,1582,308.6
-340111,Kulon Progo,Samigaluh,33748,7587,1480.0
-340202,Bantul,Sanden,11844,2368,461.9
-340315,Gunungkidul,Saptosari,46925,11076,2160.7
-340217,Bantul,Sedayu,17485,1243,242.5
-340308,Gunungkidul,Semanu,52377,3953,771.1
-340312,Gunungkidul,Semin,42029,2695,525.7
-340106,Kulon Progo,Sentolo,28245,2099,409.5
-340215,Bantul,Sewon,14226,1961,382.5
-340405,Sleman,Seyegan,13604,947,184.7
-340413,Sleman,Sleman,15952,1519,296.3
-340201,Bantul,Srandakan,10025,2891,564.0
-340317,Gunungkidul,Tanjungsari,35947,5671,1106.3
-347101,Kota Yogyakarta,Tegalrejo,1531,191,37.3
-340101,Kulon Progo,Temon,18473,0,0.0
-340414,Sleman,Tempel,16512,1184,231.0
-340307,Gunungkidul,Tepus,53732,4937,963.1
-340415,Sleman,Turi,20816,1386,270.4
-347113,Kota Yogyakarta,Umbulharjo,4141,378,73.7
-340102,Kulon Progo,Wates,16396,291,56.8
-347107,Kota Yogyakarta,Wirobrajan,901,55,10.7
-340301,Gunungkidul,Wonosari,38581,3328,649.2
+kode_wilayah,kabupaten,kecamatan,piksel_sawah,ha_sawah_s1
+340205,Bantul,Bambanglipuro,1635,318.9
+340212,Bantul,Banguntapan,1182,230.6
+340208,Bantul,Bantul,2119,413.4
+340408,Sleman,Berbah,817,159.4
+340417,Sleman,Cangkringan,1691,329.9
+347104,Kota Yogyakarta,Danurejan,95,18.5
+340407,Sleman,Depok,1883,367.3
+340211,Bantul,Dlingo,2918,569.2
+340104,Kulon Progo,Galur,6016,1173.6
+340401,Sleman,Gamping,1279,249.5
+340314,Gunungkidul,Gedangsari,1001,195.3
+347105,Kota Yogyakarta,Gedongtengen,58,11.3
+340109,Kulon Progo,Girimulyo,5312,1036.2
+340316,Gunungkidul,Girisubo,3034,591.9
+340402,Sleman,Godean,851,166.0
+347103,Kota Yogyakarta,Gondokusuman,245,47.8
+347110,Kota Yogyakarta,Gondomanan,105,20.5
+340210,Bantul,Imogiri,4732,923.1
+340209,Bantul,Jetis,2279,444.6
+347102,Kota Yogyakarta,Jetis,123,24.0
+340410,Sleman,Kalasan,477,93.1
+340112,Kulon Progo,Kalibawang,3626,707.3
+340309,Gunungkidul,Karangmojo,2751,536.7
+340216,Bantul,Kasihan,1223,238.6
+340108,Kulon Progo,Kokap,153,29.8
+347114,Kota Yogyakarta,Kotagede,136,26.5
+347109,Kota Yogyakarta,Kraton,40,7.8
+340203,Bantul,Kretek,3900,760.8
+340105,Kulon Progo,Lendah,2152,419.8
+347108,Kota Yogyakarta,Mantrijeron,109,21.3
+347112,Kota Yogyakarta,Mergangsan,101,19.7
+340404,Sleman,Minggir,933,182.0
+340406,Sleman,Mlati,1514,295.3
+340403,Sleman,Moyudan,890,173.6
+340110,Kulon Progo,Nanggulan,2086,406.9
+340412,Sleman,Ngaglik,1474,287.5
+347106,Kota Yogyakarta,Ngampilan,50,9.8
+340313,Gunungkidul,Ngawen,1166,227.5
+340411,Sleman,Ngemplak,445,86.8
+340302,Gunungkidul,Nglipar,4814,939.1
+340207,Bantul,Pajangan,1634,318.8
+340416,Sleman,Pakem,4458,869.7
+347111,Kota Yogyakarta,Pakualaman,38,7.4
+340305,Gunungkidul,Paliyan,6712,1309.4
+340206,Bantul,Pandak,2008,391.7
+340306,Gunungkidul,Panggang,9676,1887.6
+340103,Kulon Progo,Panjatan,903,176.2
+340304,Gunungkidul,Patuk,1652,322.3
+340107,Kulon Progo,Pengasih,2112,412.0
+340214,Bantul,Piyungan,1521,296.7
+340303,Gunungkidul,Playen,6532,1274.2
+340213,Bantul,Pleret,1208,235.7
+340310,Gunungkidul,Ponjong,3812,743.6
+340409,Sleman,Prambanan,671,130.9
+340204,Bantul,Pundong,3302,644.1
+340318,Gunungkidul,Purwosari,8878,1731.9
+340311,Gunungkidul,Rongkop,1582,308.6
+340111,Kulon Progo,Samigaluh,7588,1480.2
+340202,Bantul,Sanden,2368,461.9
+340315,Gunungkidul,Saptosari,11076,2160.7
+340217,Bantul,Sedayu,1243,242.5
+340308,Gunungkidul,Semanu,3954,771.3
+340312,Gunungkidul,Semin,2695,525.7
+340106,Kulon Progo,Sentolo,2099,409.5
+340215,Bantul,Sewon,1961,382.5
+340405,Sleman,Seyegan,947,184.7
+340413,Sleman,Sleman,1519,296.3
+340201,Bantul,Srandakan,2892,564.2
+340317,Gunungkidul,Tanjungsari,5671,1106.3
+347101,Kota Yogyakarta,Tegalrejo,191,37.3
+340101,Kulon Progo,Temon,0,0.0
+340414,Sleman,Tempel,1184,231.0
+340307,Gunungkidul,Tepus,4937,963.1
+340415,Sleman,Turi,1386,270.4
+347113,Kota Yogyakarta,Umbulharjo,378,73.7
+340102,Kulon Progo,Wates,291,56.8
+347107,Kota Yogyakarta,Wirobrajan,55,10.7
+340301,Gunungkidul,Wonosari,3328,649.2
