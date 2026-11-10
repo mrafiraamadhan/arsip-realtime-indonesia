@@ -1,12 +1,17 @@
-name: Fase padi per kecamatan DIY dari Sentinel-1 (manual)
+name: Fase padi per kecamatan DIY dari Sentinel-1
 
+# Sentinel-1 melintas DIY ~10.57 UTC tiap 6 hari (S1C + S1D); Planetary Computer biasanya
+# memuatnya dalam beberapa jam. Run harian 22.20 UTC (05.20 WIB) selesai sebelum
+# pipeline SIGAP Pangan DIY (23.05 UTC) membaca deretnya untuk nowcast SIMOTANDI.
 on:
+  schedule:
+    - cron: "20 22 * * *"
   workflow_dispatch:
     inputs:
-      batas:
-        description: "Berapa tanggal terakhir saja (0 = semua sejak Jan 2024)"
+      mode:
+        description: "harian (tambah tanggal baru) atau rujukan (hitung ulang seluruh riwayat)"
         required: false
-        default: "0"
+        default: "harian"
 
 permissions:
   contents: write
@@ -18,7 +23,7 @@ concurrency:
 jobs:
   olah:
     runs-on: ubuntu-24.04
-    timeout-minutes: 120
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -28,7 +33,7 @@ jobs:
       - name: Batas kecamatan (sekali saja)
         run: |
           if [ ! -f config/batas_kecamatan_diy.geojson ]; then python tools/siapkan_batas_diy.py; fi
-      - run: python tools/s1_padi_kecamatan.py --batas "${{ github.event.inputs.batas || 0 }}"
+      - run: python src/s1_padi_kecamatan.py --mode "${{ github.event.inputs.mode || 'harian' }}"
       - name: Simpan
         if: always()
         run: |
