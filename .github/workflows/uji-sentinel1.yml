@@ -1,0 +1,20 @@
+name: Uji ketersediaan citra Sentinel-1 di atas DIY (manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  uji:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install -q requests
+      - run: python tools/uji_sentinel1.py
+      - run: bash tools/simpan.sh "uji-sentinel1"
