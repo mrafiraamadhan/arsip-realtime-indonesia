@@ -75,13 +75,39 @@ def baca(href):
 def proses(it):
     tgl = it.datetime.date().isoformat()
     try:
-        return tgl, baca(it.assets["vh"].href), it.id
+        return tgl, baca(it.assets["vh"].href), it.properties.get("platform", "?")
     except Exception as e:
         return tgl, None, f"{it.id}: {type(e).__name__} {str(e)[:150]}"
 
 
+def normalisasi(VH, tgl, platform):
+    """DN GRD belum terkalibrasi; tiap satelit (S1A/S1C/S1D) dan tanggal bisa bergeser beberapa dB.
+    Koreksi per tanggal memakai target stabil (piksel dengan simpangan waktu terkecil, umumnya atap/beton):
+    offset_t = median(VH_t - median_waktu) di piksel stabil, lalu VH_t -= offset_t."""
+    sub = VH[:, ::4, ::4].astype("float32").reshape(VH.shape[0], -1)
+    ok = np.isfinite(sub).sum(0) >= 0.8 * VH.shape[0]
+    sub = sub[:, ok]
+    with np.errstate(all="ignore"):
+        med = np.nanmedian(sub, 0); sd = np.nanstd(sub, 0)
+    ref = sd <= np.nanpercentile(sd, 10)
+    off = np.array([np.nanmedian(sub[t, ref] - med[ref]) for t in range(VH.shape[0])])
+    off = np.nan_to_num(off)
+    for t in range(VH.shape[0]):
+        VH[t] = (VH[t].astype("float32") - off[t]).astype("float16")
+    with open(f"{KELUAR}/offset_tanggal.csv", "w", newline="") as fh:
+        w = csv.writer(fh); w.writerow(["tanggal", "platform", "offset_db", "n_ref"])
+        for t in range(len(tgl)):
+            w.writerow([tgl[t], platform.get(tgl[t], "?"), round(float(off[t]), 3), int(ref.sum())])
+    per = {}
+    for t in range(len(tgl)):
+        per.setdefault(platform.get(tgl[t], "?"), []).append(off[t])
+    print("offset per satelit (median dB):", {k: round(float(np.median(v)), 2) for k, v in per.items()},
+          "| rentang", round(float(off.min()), 2), "s.d.", round(float(off.max()), 2), flush=True)
+
+
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--batas", type=int, default=0); a = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument("--batas", type=int, default=0)
+    ap.add_argument("--tanpa-normalisasi", action="store_true"); a = ap.parse_args()
     os.makedirs(KELUAR, exist_ok=True)
     gj = json.load(open("config/batas_kecamatan_diy.geojson"))
     fitur = gj["features"]
@@ -99,17 +125,20 @@ def main():
         items = items[-a.batas:]
     print(f"{len(items)} item; {items[0].datetime.date()} s.d. {items[-1].datetime.date()}", flush=True)
     t0 = time.time()
-    per_tgl = {}
+    per_tgl, platform = {}, {}
     with ThreadPoolExecutor(8) as ex:
         for tgl, vh, info in ex.map(proses, items):
             if vh is None:
                 print("  lewati", tgl, info, flush=True); continue
+            platform[tgl] = info
             per_tgl[tgl] = vh if tgl not in per_tgl else np.where(np.isnan(per_tgl[tgl]), vh, per_tgl[tgl])
     tgl = sorted(per_tgl)
     VH = np.stack([per_tgl[t] for t in tgl]); del per_tgl
     T = len(tgl)
     hari = np.array([(datetime.fromisoformat(t) - datetime(2024, 1, 1)).days for t in tgl])
     print(f"baca {time.time()-t0:.0f} dtk; {T} tanggal; stack {VH.shape} {VH.nbytes/1e9:.2f} GB", flush=True)
+    if not a.tanpa_normalisasi:
+        normalisasi(VH, tgl, platform)
 
     # akumulator: hit[t, zona, fitur]
     F = ["n_valid", "basah_baru", "naik", "turun", "z_sum"] + KELAS
