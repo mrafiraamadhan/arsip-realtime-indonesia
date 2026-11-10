@@ -23,7 +23,7 @@ import rasterio
 from pystac_client import Client
 from rasterio.enums import Resampling
 from rasterio.vrt import WarpedVRT
-from rasterio.windows import from_bounds
+from rasterio.transform import from_origin
 
 os.environ.update({"GDAL_DISABLE_READDIR_ON_OPEN": "EMPTY_DIR", "GDAL_HTTP_MERGE_CONSECUTIVE_RANGES": "YES",
                    "GDAL_HTTP_MULTIPLEX": "YES", "VSI_CACHE": "TRUE", "GDAL_HTTP_MAX_RETRY": "3"})
@@ -36,11 +36,15 @@ BB = (110.10, -8.02, 110.35, -7.69)
 NX, NY = int(round((BB[2] - BB[0]) / RES)), int(round((BB[3] - BB[1]) / RES))
 
 
+GRID = from_origin(BB[0], BB[3], RES, RES)
+
+
 def baca(href):
-    with rasterio.open(href) as src, WarpedVRT(src, crs="EPSG:4326", resampling=Resampling.average) as vrt:
-        w = from_bounds(*BB, transform=vrt.transform)
-        a = vrt.read(1, window=w, out_shape=(NY, NX), boundless=True, fill_value=0,
-                     resampling=Resampling.average).astype("float32")
+    # Proyeksikan citra (geometri radar + GCP) langsung ke kisi tetap DIY, supaya
+    # piksel antartanggal sejajar dan bisa ditumpuk menjadi deret waktu.
+    with rasterio.open(href) as src, WarpedVRT(src, crs="EPSG:4326", transform=GRID, width=NX, height=NY,
+                                               src_nodata=0, nodata=0, resampling=Resampling.average) as vrt:
+        a = vrt.read(1).astype("float32")
     a[a <= 0] = np.nan
     return 20 * np.log10(a)
 
@@ -76,6 +80,8 @@ def main():
         else:
             per_tgl[tgl] = (vh, vv)
     tgl = sorted(per_tgl)
+    if not tgl:
+        sys.exit("Tidak ada tanggal yang berhasil dibaca.")
     VH = np.stack([per_tgl[t][0] for t in tgl]); VV = np.stack([per_tgl[t][1] for t in tgl])
     print(f"{len(tgl)} tanggal unik; ukuran stack {VH.shape}", flush=True)
     baris = []
