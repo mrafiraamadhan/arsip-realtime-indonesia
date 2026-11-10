@@ -1,0 +1,36 @@
+name: Fase padi per kecamatan DIY dari Sentinel-1 (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      batas:
+        description: "Berapa tanggal terakhir saja (0 = semua sejak Jan 2024)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: s1-padi-kecamatan
+  cancel-in-progress: false
+
+jobs:
+  olah:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install -q pystac-client planetary-computer rasterio numpy shapely requests
+      - name: Batas kecamatan (sekali saja)
+        run: |
+          if [ ! -f config/batas_kecamatan_diy.geojson ]; then python tools/siapkan_batas_diy.py; fi
+      - run: python tools/s1_padi_kecamatan.py --batas "${{ github.event.inputs.batas || 0 }}"
+      - name: Simpan
+        if: always()
+        run: |
+          git add config/batas_kecamatan_diy.geojson 2>/dev/null || true
+          bash tools/simpan.sh "s1-padi-kecamatan"
