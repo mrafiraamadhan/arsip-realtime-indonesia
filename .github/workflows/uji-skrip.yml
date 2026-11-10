@@ -1,0 +1,30 @@
+name: Uji skrip (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      skrip:
+        description: "Path skrip Python di repo (mis. tools/uji_s1_anotasi.py)"
+        required: true
+      argumen:
+        description: "Argumen tambahan"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  uji:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install -q pystac-client planetary-computer rasterio numpy scipy shapely requests pyshp
+      - run: python "${{ github.event.inputs.skrip }}" ${{ github.event.inputs.argumen }}
+      - name: Simpan
+        if: always()
+        run: bash tools/simpan.sh "uji-skrip"
