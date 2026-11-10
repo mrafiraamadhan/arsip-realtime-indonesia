@@ -296,7 +296,8 @@ def main():
     if mode == "harian" and os.path.exists(DERET):
         lama = list(csv.reader(open(DERET)))[1:]
         sudah = {r[2] for r in lama}
-        baru = sorted({i.datetime.date().isoformat() for i in items} - sudah)
+        # hanya tanggal setelah tanggal terakhir di deret (irisan yang tak mencakup DIY tidak dihitung ulang tiap hari)
+        baru = sorted(t for t in {i.datetime.date().isoformat() for i in items} if t > max(sudah))
         if not baru:
             print(f"Tidak ada tanggal baru (terakhir {max(sudah)}).", flush=True); return
         print(f"tanggal baru: {baru}", flush=True)
