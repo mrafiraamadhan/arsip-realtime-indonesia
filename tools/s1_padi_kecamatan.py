@@ -5,8 +5,9 @@ Sumber: Sentinel-1 GRD di Microsoft Planetary Computer (tanpa akun), lintasan re
 ascending (geometri sama, tiap 6-12 hari, terbit beberapa jam setelah perekaman).
 
 Langkah:
-  1. Tiap adegan digeoreferensi dari GCP lokal lalu diproyeksikan ke kisi tetap ~44 m
-     (BB DIY), dibaca dari overview 1/4 supaya cepat.
+  1. Tiap adegan dikalibrasi ke sigma0 dan dibersihkan dari noise termal memakai LUT anotasi
+     produk (penting: lantai noise S1A ~4x S1C), digeoreferensi dari GCP lokal, lalu diproyeksikan
+     ke kisi tetap ~44 m (BB DIY); dibaca dari overview 1/4 supaya cepat.
   2. Piksel sawah = rentang VH sepanjang waktu (p95-p5) >= 6 dB dan berada di poligon kecamatan.
   3. Per piksel per tanggal: "basah" = VH <= p15 pikselnya + 1 dB (tergenang: olah tanah/tanam).
      Umur = hari sejak tanggal basah terakhir -> kelas umur yang sejajar dengan fase SIMOTANDI.
@@ -49,8 +50,52 @@ BATAS_UMUR = [(1, 12), (13, 36), (37, 60), (61, 84), (85, 110), (111, 140)]
 KELUAR = "arsip/sentinel1_padi"
 
 
-def baca(href):
-    with rasterio.open(href) as src:
+def _vektor(root, daftar, nilai):
+    """Ambil vektor LUT: list (line, pixel[], nilai[])."""
+    out = []
+    for v in root.find(daftar):
+        out.append((int(v.findtext("line")), np.array(v.findtext("pixel").split(), float),
+                    np.array(v.findtext(nilai).split(), float)))
+    return out
+
+
+def _grid_lut(vek, baris, kolom):
+    """Interpolasi bilinear LUT (vektor per-baris dengan sampel piksel) ke kisi baris x kolom."""
+    vek = sorted(vek, key=lambda x: x[0])
+    lines = np.array([v[0] for v in vek], float)
+    V = np.stack([np.interp(kolom, v[1], v[2]) for v in vek])          # nvek x ncol
+    j = np.clip(np.searchsorted(lines, baris, side="right") - 1, 0, len(lines) - 2) if len(lines) > 1 else np.zeros(len(baris), int)
+    if len(lines) == 1:
+        return np.repeat(V, len(baris), 0)
+    w = np.clip((baris - lines[j]) / np.maximum(lines[j + 1] - lines[j], 1), 0, 1)[:, None]
+    return V[j] * (1 - w) + V[j + 1] * w
+
+
+def kalibrasi(it, pol, baris, kolom):
+    """sigmaNought^2 dan noise (DN^2) pada titik (baris, kolom) resolusi penuh, dari anotasi produk."""
+    import requests, xml.etree.ElementTree as ET
+    cal = ET.fromstring(requests.get(it.assets[f"schema-calibration-{pol}"].href, timeout=120).content)
+    A = _grid_lut(_vektor(cal, "calibrationVectorList", "sigmaNought"), baris, kolom)
+    noi = ET.fromstring(requests.get(it.assets[f"schema-noise-{pol}"].href, timeout=120).content)
+    daftar = "noiseRangeVectorList" if noi.find("noiseRangeVectorList") is not None else "noiseVectorList"
+    nilai = "noiseRangeLut" if daftar == "noiseRangeVectorList" else "noiseLut"
+    N = _grid_lut(_vektor(noi, daftar, nilai), baris, kolom)
+    az = np.ones_like(N)
+    if noi.find("noiseAzimuthVectorList") is not None:
+        for b in noi.find("noiseAzimuthVectorList"):
+            a0, a1 = int(b.findtext("firstAzimuthLine")), int(b.findtext("lastAzimuthLine"))
+            r0, r1 = int(b.findtext("firstRangeSample")), int(b.findtext("lastRangeSample"))
+            lin = np.array(b.findtext("line").split(), float); lut = np.array(b.findtext("noiseAzimuthLut").split(), float)
+            bi = (baris >= a0) & (baris <= a1); ki = (kolom >= r0) & (kolom <= r1)
+            if bi.any() and ki.any():
+                az[np.ix_(bi, ki)] = np.interp(baris[bi], lin, lut)[:, None] if len(lin) > 1 else lut[0]
+    return A * A, N * az
+
+
+def baca(it, pol="vh"):
+    """Sigma0 (dB) terkalibrasi & bebas noise termal, diproyeksikan ke kisi tetap.
+    GRD hanya punya GCP: bentuk afin lokal dari GCP sekitar DIY, baca jendela pada overview 1/4."""
+    with rasterio.open(it.assets[pol].href) as src:
         g, _ = src.gcps
         dekat = [q for q in g if BB[0] - 0.4 <= q.x <= BB[2] + 0.4 and BB[1] - 0.4 <= q.y <= BB[3] + 0.4]
         if len(dekat) < 4:
@@ -65,22 +110,29 @@ def baca(href):
         win = Window(c0, r0, c1 - c0, r1 - r0)
         data = src.read(1, window=win, out_shape=(max(1, win.height // FAK), max(1, win.width // FAK))).astype("float32")
         wt = window_transform(win, T) * Affine.scale(win.width / data.shape[1], win.height / data.shape[0])
+    h, w = data.shape
+    baris = r0 + (np.arange(h) + 0.5) * win.height / h
+    kolom = c0 + (np.arange(w) + 0.5) * win.width / w
+    A2, N = kalibrasi(it, pol, baris, kolom)
+    valid = data > 0
+    s0 = np.where(valid, np.maximum(data * data - N, 0) / A2, 0).astype("float32")
+    s0[valid] = np.maximum(s0[valid], 10 ** (-3.5))       # lantai -35 dB untuk piksel di bawah noise
     dst = np.zeros((NY, NX), "float32")
-    reproject(data, dst, src_transform=wt, src_crs="EPSG:4326", dst_transform=GRID, dst_crs="EPSG:4326",
+    reproject(s0, dst, src_transform=wt, src_crs="EPSG:4326", dst_transform=GRID, dst_crs="EPSG:4326",
               src_nodata=0, dst_nodata=0, resampling=Resampling.average)
     dst[dst <= 0] = np.nan
-    return (20 * np.log10(dst)).astype("float16")
+    return (10 * np.log10(dst)).astype("float16")
 
 
 def proses(it):
     tgl = it.datetime.date().isoformat()
     try:
-        return tgl, baca(it.assets["vh"].href), it.properties.get("platform", "?")
+        return tgl, baca(it, "vh"), it.properties.get("platform", "?").upper()
     except Exception as e:
         return tgl, None, f"{it.id}: {type(e).__name__} {str(e)[:150]}"
 
 
-def normalisasi(VH, tgl, platform):
+def normalisasi(VH, tgl, platform, terapkan=False):
     """DN GRD belum terkalibrasi; tiap satelit (S1A/S1C/S1D) dan tanggal bisa bergeser beberapa dB.
     Koreksi per tanggal memakai target stabil (piksel dengan simpangan waktu terkecil, umumnya atap/beton):
     offset_t = median(VH_t - median_waktu) di piksel stabil, lalu VH_t -= offset_t."""
@@ -92,8 +144,9 @@ def normalisasi(VH, tgl, platform):
     ref = sd <= np.nanpercentile(sd, 10)
     off = np.array([np.nanmedian(sub[t, ref] - med[ref]) for t in range(VH.shape[0])])
     off = np.nan_to_num(off)
-    for t in range(VH.shape[0]):
-        VH[t] = (VH[t].astype("float32") - off[t]).astype("float16")
+    if terapkan:
+        for t in range(VH.shape[0]):
+            VH[t] = (VH[t].astype("float32") - off[t]).astype("float16")
     with open(f"{KELUAR}/offset_tanggal.csv", "w", newline="") as fh:
         w = csv.writer(fh); w.writerow(["tanggal", "platform", "offset_db", "n_ref"])
         for t in range(len(tgl)):
@@ -107,7 +160,7 @@ def normalisasi(VH, tgl, platform):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--batas", type=int, default=0)
-    ap.add_argument("--tanpa-normalisasi", action="store_true"); a = ap.parse_args()
+    ap.add_argument("--normalisasi", action="store_true"); a = ap.parse_args()
     os.makedirs(KELUAR, exist_ok=True)
     gj = json.load(open("config/batas_kecamatan_diy.geojson"))
     fitur = gj["features"]
@@ -137,11 +190,10 @@ def main():
     T = len(tgl)
     hari = np.array([(datetime.fromisoformat(t) - datetime(2024, 1, 1)).days for t in tgl])
     print(f"baca {time.time()-t0:.0f} dtk; {T} tanggal; stack {VH.shape} {VH.nbytes/1e9:.2f} GB", flush=True)
-    if not a.tanpa_normalisasi:
-        normalisasi(VH, tgl, platform)
+    normalisasi(VH, tgl, platform, terapkan=a.normalisasi)
 
     # akumulator: hit[t, zona, fitur]
-    F = ["n_valid", "basah_baru", "naik", "turun", "z_sum"] + KELAS
+    F = ["n_valid", "basah_baru", "naik", "turun", "z_sum", "db_sum"] + KELAS
     hit = np.zeros((T, nz, len(F)), "float64")
     n_sawah = np.zeros(nz); n_zona = np.bincount(zona.ravel(), minlength=nz).astype(float)
     kelas_akhir = np.zeros((NY, NX), "uint8")       # 0 = bukan sawah, 1..8 = KELAS
@@ -175,11 +227,11 @@ def main():
             kls[b] = 0
             d = v[t] - sebelum
             fit = {"n_valid": ok, "basah_baru": b & ~basah_sebelum, "naik": ok & (d >= 3), "turun": ok & (d <= -3),
-                   "z_sum": np.where(ok, v[t] - med, 0)}
+                   "z_sum": np.where(ok, v[t] - med, 0), "db_sum": np.where(ok, v[t], 0)}
             for j, k in enumerate(KELAS):
                 fit[k] = ok & (kls == j)
             for j, k in enumerate(F):
-                hit[t, :, j] += np.bincount(z, weights=fit[k].astype("float64") if k != "z_sum" else fit[k], minlength=nz)
+                hit[t, :, j] += np.bincount(z, weights=fit[k].astype("float64"), minlength=nz)
             akhir_basah = np.where(b, hari[t], akhir_basah)
             sebelum = np.where(ok, v[t], sebelum); basah_sebelum = np.where(ok, b, basah_sebelum)
             if t == T - 1:
@@ -193,7 +245,7 @@ def main():
     out = f"{KELUAR}/kecamatan_{run}.csv"
     with open(out, "w", newline="") as fh:
         w = csv.writer(fh)
-        w.writerow(["kode_wilayah", "kecamatan", "tanggal", "n_sawah", "n_valid", "f_basah_baru", "f_naik", "f_turun", "z_rata"]
+        w.writerow(["kode_wilayah", "kecamatan", "tanggal", "n_sawah", "n_valid", "f_basah_baru", "f_naik", "f_turun", "z_rata", "vh_db"]
                    + ["f_" + k for k in KELAS])
         for i, f in enumerate(fitur, start=1):
             if n_sawah[i] == 0:
@@ -203,8 +255,8 @@ def main():
                 if nv == 0:
                     continue
                 w.writerow([f["properties"]["kode_wilayah"], f["properties"]["kecamatan"], tgl[t], int(n_sawah[i]), int(nv),
-                            round(h[1] / nv, 4), round(h[2] / nv, 4), round(h[3] / nv, 4), round(h[4] / nv, 3)]
-                           + [round(x / nv, 4) for x in h[5:]])
+                            round(h[1] / nv, 4), round(h[2] / nv, 4), round(h[3] / nv, 4), round(h[4] / nv, 3), round(h[5] / nv, 2)]
+                           + [round(x / nv, 4) for x in h[6:]])
     with open(f"{KELUAR}/sawah_kecamatan.csv", "w", newline="") as fh:
         w = csv.writer(fh); w.writerow(["kode_wilayah", "kabupaten", "kecamatan", "piksel_zona", "piksel_sawah", "ha_sawah_s1"])
         for i, f in enumerate(fitur, start=1):
