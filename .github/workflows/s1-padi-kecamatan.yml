@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - run: pip install -q pystac-client planetary-computer rasterio numpy shapely requests
+      - run: pip install -q pystac-client planetary-computer rasterio numpy shapely requests pyshp
       - name: Batas kecamatan (sekali saja)
         run: |
           if [ ! -f config/batas_kecamatan_diy.geojson ]; then python tools/siapkan_batas_diy.py; fi

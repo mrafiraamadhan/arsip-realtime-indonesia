@@ -18,11 +18,41 @@ def norm(s):
     return ALIAS.get(s, s)
 
 
-def unduh(level):
-    meta = requests.get(f"https://www.geoboundaries.org/api/current/gbOpen/IDN/{level}/", headers=UA, timeout=60).json()
+def unduh(level, rilis="gbOpen"):
+    r = requests.get(f"https://www.geoboundaries.org/api/current/{rilis}/IDN/{level}/", headers=UA, timeout=60)
+    if r.status_code != 200 or not r.text.strip().startswith("{"):
+        print(f"{rilis} {level}: HTTP {r.status_code} {r.text[:120]!r}", flush=True)
+        return None
+    meta = r.json()
     url = meta.get("simplifiedGeometryGeoJSON") or meta["gjDownloadURL"]
-    print(level, meta.get("boundarySource"), meta.get("boundaryYearRepresented"), url, flush=True)
+    print(rilis, level, meta.get("boundarySource"), meta.get("boundaryYearRepresented"), url, flush=True)
     return requests.get(url, headers=UA, timeout=300).json()
+
+
+def unduh_hdx_adm3():
+    """Cadangan: COD-AB Indonesia (BPS) di HDX, shapefile level 3 (kecamatan)."""
+    import io, zipfile, shapefile
+    meta = requests.get("https://data.humdata.org/api/3/action/package_show?id=cod-ab-idn", headers=UA, timeout=60).json()
+    res = meta["result"]["resources"]
+    for r in res:
+        print("  HDX:", r.get("name"), r.get("format"), r.get("url"), flush=True)
+    kandidat = [r for r in res if "shp" in (r.get("format") or "").lower() or r["url"].lower().endswith(".zip")]
+    for r in kandidat:
+        z = zipfile.ZipFile(io.BytesIO(requests.get(r["url"], headers=UA, timeout=600).content))
+        nama = [n for n in z.namelist() if n.lower().endswith(".shp") and "adm3" in n.lower()]
+        if not nama:
+            continue
+        b = nama[0][:-4]
+        sf = shapefile.Reader(shp=io.BytesIO(z.read(b + ".shp")), dbf=io.BytesIO(z.read(b + ".dbf")))
+        kol = [f[0] for f in sf.fields[1:]]
+        print("  HDX adm3:", nama[0], kol, flush=True)
+        fitur = []
+        for sr in sf.iterShapeRecords():
+            p = dict(zip(kol, sr.record))
+            nama3 = p.get("ADM3_EN") or p.get("ADM3_ID") or p.get("ADM3_NAME")
+            fitur.append({"geometry": sr.shape.__geo_interface__, "properties": {"shapeName": nama3, **{k: str(v) for k, v in p.items()}}})
+        return {"features": fitur}
+    return None
 
 
 def main():
@@ -31,7 +61,9 @@ def main():
     if len(diy) != 1:
         sys.exit(f"ADM1 DIY tidak unik: {[f['properties']['shapeName'] for f in diy]}")
     poli_diy = shape(diy[0]["geometry"]).buffer(0)
-    adm3 = unduh("ADM3")
+    adm3 = unduh("ADM3") or unduh("ADM3", "gbHumanitarian") or unduh_hdx_adm3()
+    if not adm3:
+        sys.exit("Batas ADM3 tidak tersedia dari geoBoundaries maupun HDX.")
     calon = []
     for f in adm3["features"]:
         g = shape(f["geometry"]).buffer(0)
