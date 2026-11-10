@@ -2,6 +2,7 @@
 Siapkan batas kecamatan DIY dari geoBoundaries (CC BY 4.0, https://www.geoboundaries.org)
 dan cocokkan dengan daftar kecamatan SIMOTANDI (config/kecamatan_simotandi_diy.csv).
 
+Sumber utama: gbHumanitarian IDN ADM3 (OCHA ROAP/HDX); gbOpen IDN belum punya ADM3.
 Dijalankan di GitHub Actions (geoboundaries.org tidak terjangkau dari lingkungan lain).
 Keluaran: config/batas_kecamatan_diy.geojson  (properti: kode_wilayah, kabupaten, kecamatan, nama_gb)
 """
@@ -77,19 +78,25 @@ def main():
     for r in ref:
         peta.setdefault(norm(r["kecamatan"]), []).append(r)
     fitur, tak_cocok = [], []
+    kelompok = {}
     for nama, g in calon:
-        rr = peta.get(norm(nama))
-        if not rr or len(rr) > 1:
-            tak_cocok.append(nama); continue
-        r = rr[0]
-        fitur.append({"type": "Feature", "geometry": mapping(g.simplify(0.0002)),
-                      "properties": {"kode_wilayah": int(r["kode_wilayah"]), "kabupaten": r["kabupaten_kota"],
-                                     "kecamatan": r["kecamatan"], "nama_gb": nama}})
+        kelompok.setdefault(norm(nama), []).append((nama, g))
+    for kunci, polis in kelompok.items():
+        rr = peta.get(kunci)
+        if not rr or len(rr) != len(polis):
+            tak_cocok += [n for n, _ in polis]; continue
+        # nama kembar (mis. Jetis di Bantul & Kota Yogyakarta): pasangkan poligon terluas dengan luas baku terbesar
+        polis = sorted(polis, key=lambda x: -x[1].area)
+        rr = sorted(rr, key=lambda r: -float(r["luas_baku_sawah_ha"] or 0))
+        for (nama, g), r in zip(polis, rr):
+            fitur.append({"type": "Feature", "geometry": mapping(g.simplify(0.0002)),
+                          "properties": {"kode_wilayah": int(r["kode_wilayah"]), "kabupaten": r["kabupaten_kota"],
+                                         "kecamatan": r["kecamatan"], "nama_gb": nama}})
     kode = {f["properties"]["kode_wilayah"] for f in fitur}
     hilang = [r["kecamatan"] for r in ref if int(r["kode_wilayah"]) not in kode]
     print(f"cocok {len(fitur)}; poligon tak cocok {tak_cocok}; kecamatan SIMOTANDI tanpa poligon {hilang}", flush=True)
     json.dump({"type": "FeatureCollection",
-               "atribusi": "Batas: geoBoundaries (CC BY 4.0), www.geoboundaries.org",
+               "atribusi": "Batas: geoBoundaries gbHumanitarian (OCHA ROAP/HDX), www.geoboundaries.org",
                "features": fitur}, open("config/batas_kecamatan_diy.geojson", "w"))
 
 
