@@ -12,6 +12,7 @@ Semua berkas arsip **hanya bertambah**. Satu run menghasilkan satu berkas baru, 
 | BMKG, peringatan dini cuaca (nowcast) | Setiap peringatan: waktu berlaku, tingkat bahaya, kecamatan terdampak, teks lengkap | Seluruh provinsi | Tiap 30 menit | `arsip/bmkg_nowcast/` |
 | BMKG, gelombang (InaWaves) | **Masih uji coba.** Mencatat format dan ukuran jawaban API untuk merancang pengambil per perairan | Seluruh perairan | 1× sehari | `arsip/bmkg_gelombang_uji/` |
 | Halaman harga resmi (`config/halaman.csv`) | Harga BBM Pertamina per provinsi, BBM Shell, emas Antam & buyback. HTML asli disimpan setiap kali angka harganya berubah | Nasional / per provinsi | 1× sehari | `arsip/halaman/<id>/` |
+| Radar Sentinel-1, fase padi per kecamatan DIY | Porsi sawah tergenang, kelas umur sejak genangan terakhir, backscatter VH per kecamatan per tanggal lintas (sigma0 terkalibrasi, noise termal dibuang). Dipakai SIGAP Pangan DIY untuk *nowcast* SIMOTANDI | 78 kecamatan DIY, lintasan relatif 127 ascending, sejak Jan 2024 | 1× sehari (05.20 WIB); citra baru tiap 6–12 hari | `arsip/sentinel1_padi/` |
 | Tiket pesawat (Google Flights lewat SerpApi) | Semua opsi penerbangan, plus harga terendah dan rentang wajar versi Google, untuk keberangkatan H+7 dan H+30 | 4 rute: Jakarta–Medan, Yogyakarta, Balikpapan, Makassar (`config/rute_pesawat.csv`) | 1× sehari, **aktif setelah secret `SERPAPI_KEY` dipasang** | `arsip/tiket_pesawat/` |
 
 Perekam halaman **mematuhi robots.txt**: halaman yang dilarang situsnya dilewati dan tercatat di log.
@@ -27,6 +28,8 @@ Perekam halaman **mematuhi robots.txt**: halaman yang dilarang situsnya dilewati
 Setiap run juga menulis satu baris ringkasan di `log/<sumber>_YYYY-MM.csv`, berisi jumlah berhasil dan gagal beserta alasannya. Jadi "tidak ada data baru" bisa dibedakan dari "pengambilan gagal".
 
 **Sumber data: BMKG (Badan Meteorologi, Klimatologi, dan Geofisika).** Mencantumkan BMKG sebagai sumber adalah syarat penggunaan data terbukanya.
+
+**Sentinel-1:** mengandung data Copernicus Sentinel yang dimodifikasi (ESA), diakses lewat Microsoft Planetary Computer. Batas kecamatan: geoBoundaries gbHumanitarian (OCHA ROAP/HDX). Statistik per piksel dibekukan di `rujukan_piksel.tif` (hitung ulang dengan `mode=rujukan` di workflow), sehingga angka tanggal lama di `kecamatan_deret.csv` tidak berubah saat tanggal baru ditambahkan.
 
 ## Cara memasang (sekali saja)
 
