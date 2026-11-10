@@ -22,8 +22,11 @@ import planetary_computer as pc
 import rasterio
 from pystac_client import Client
 from rasterio.enums import Resampling
-from rasterio.vrt import WarpedVRT
-from rasterio.transform import from_origin
+from affine import Affine
+from rasterio.transform import from_gcps, from_origin
+from rasterio.warp import reproject
+from rasterio.windows import Window
+from rasterio.windows import transform as window_transform
 
 os.environ.update({"GDAL_DISABLE_READDIR_ON_OPEN": "EMPTY_DIR", "GDAL_HTTP_MERGE_CONSECUTIVE_RANGES": "YES",
                    "GDAL_HTTP_MULTIPLEX": "YES", "VSI_CACHE": "TRUE", "GDAL_HTTP_MAX_RETRY": "3"})
@@ -37,16 +40,34 @@ NX, NY = int(round((BB[2] - BB[0]) / RES)), int(round((BB[3] - BB[1]) / RES))
 
 
 GRID = from_origin(BB[0], BB[3], RES, RES)
+FAK = 2                       # baca dengan pengurangan 2x (piksel GRD 10 m -> ~20 m)
 
 
 def baca(href):
-    # Proyeksikan citra (geometri radar + GCP) langsung ke kisi tetap DIY, supaya
-    # piksel antartanggal sejajar dan bisa ditumpuk menjadi deret waktu.
-    with rasterio.open(href) as src, WarpedVRT(src, crs="EPSG:4326", transform=GRID, width=NX, height=NY,
-                                               src_nodata=0, nodata=0, resampling=Resampling.average) as vrt:
-        a = vrt.read(1).astype("float32")
-    a[a <= 0] = np.nan
-    return 20 * np.log10(a)
+    """GRD tidak punya koordinat peta, hanya GCP (lon/lat) yang tersebar di seluruh adegan.
+    Bentuk transformasi afin LOKAL dari GCP di sekitar DIY (akurat untuk dataran rendah),
+    baca jendela piksel yang mencakup DIY, lalu proyeksikan ke kisi tetap supaya
+    piksel antartanggal sejajar."""
+    with rasterio.open(href) as src:
+        g, _ = src.gcps
+        dekat = [q for q in g if BB[0] - 0.35 <= q.x <= BB[2] + 0.35 and BB[1] - 0.35 <= q.y <= BB[3] + 0.35]
+        if len(dekat) < 4:
+            return np.full((NY, NX), np.nan, "float32")
+        T = from_gcps(dekat)
+        inv = ~T
+        pts = [inv * (x, y) for x, y in [(BB[0], BB[1]), (BB[0], BB[3]), (BB[2], BB[1]), (BB[2], BB[3])]]
+        c0 = max(0, int(min(p[0] for p in pts)) - 40); c1 = min(src.width, int(max(p[0] for p in pts)) + 40)
+        r0 = max(0, int(min(p[1] for p in pts)) - 40); r1 = min(src.height, int(max(p[1] for p in pts)) + 40)
+        if c1 <= c0 or r1 <= r0:
+            return np.full((NY, NX), np.nan, "float32")
+        win = Window(c0, r0, c1 - c0, r1 - r0)
+        data = src.read(1, window=win, out_shape=(max(1, win.height // FAK), max(1, win.width // FAK))).astype("float32")
+        wt = window_transform(win, T) * Affine.scale(win.width / data.shape[1], win.height / data.shape[0])
+    dst = np.zeros((NY, NX), "float32")
+    reproject(data, dst, src_transform=wt, src_crs="EPSG:4326", dst_transform=GRID, dst_crs="EPSG:4326",
+              src_nodata=0, dst_nodata=0, resampling=Resampling.average)
+    dst[dst <= 0] = np.nan
+    return 20 * np.log10(dst)
 
 
 def proses(it):
