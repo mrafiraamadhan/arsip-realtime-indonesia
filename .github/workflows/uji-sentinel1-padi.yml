@@ -1,0 +1,25 @@
+name: Uji sinyal padi Sentinel-1 di DIY (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      batas:
+        description: "Berapa tanggal terakhir saja (0 = semua sejak Jan 2024)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+jobs:
+  uji:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install -q pystac-client planetary-computer rasterio numpy
+      - run: python tools/uji_sentinel1_padi.py --batas "${{ github.event.inputs.batas || 0 }}"
+      - run: bash tools/simpan.sh "uji-sentinel1-padi"
