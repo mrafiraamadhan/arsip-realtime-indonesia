@@ -56,6 +56,21 @@ def proses(it):
         return it.datetime.date().isoformat(), None, None, f"{type(e).__name__}: {str(e)[:120]}"
 
 
+def diagnosa(it):
+    href = it.assets["vh"].href
+    with rasterio.open(href) as src:
+        g, gcrs = src.gcps
+        print(f"DIAG {it.id}: {src.width}x{src.height} dtype={src.dtypes[0]} crs={src.crs} "
+              f"transform={tuple(round(v, 6) for v in src.transform)[:6]} n_gcp={len(g)} gcp_crs={gcrs} "
+              f"overviews={src.overviews(1)}", flush=True)
+        if g:
+            xs = [p.x for p in g]; ys = [p.y for p in g]
+            print(f"DIAG gcp lon {min(xs):.3f}..{max(xs):.3f} lat {min(ys):.3f}..{max(ys):.3f}", flush=True)
+        a = src.read(1, out_shape=(src.height // 32, src.width // 32))
+        print(f"DIAG baca kasar: min={a.min()} max={a.max()} nol={np.mean(a == 0):.0%}", flush=True)
+    print("DIAG aset:", {k: v.href.split('?')[0][-60:] for k, v in it.assets.items()}, flush=True)
+
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--batas", type=int, default=0); a = ap.parse_args()
     cat = Client.open("https://planetarycomputer.microsoft.com/api/stac/v1", modifier=pc.sign_inplace)
@@ -65,6 +80,10 @@ def main():
     items.sort(key=lambda i: i.datetime)
     if a.batas:
         items = items[-a.batas:]
+    try:
+        diagnosa(items[-1])
+    except Exception as e:
+        print("DIAG gagal:", type(e).__name__, str(e)[:200], flush=True)
     print(f"{len(items)} item lintasan 127 ascending; {items[0].datetime.date()} s.d. {items[-1].datetime.date()}", flush=True)
     t0 = time.time()
     with ThreadPoolExecutor(8) as ex:
