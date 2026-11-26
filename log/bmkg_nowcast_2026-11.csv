@@ -54,3 +54,4 @@ run_utc,sumber,status,diminta,berhasil,gagal,baris,berkas,catatan
 2026-11-25T02:59:39+00:00,bmkg_nowcast,ok,19,19,0,19,arsip/bmkg_nowcast/2026/11/2026-11-25_0259Z.jsonl.gz,"19 aktif di feed, 19 baru; "
 2026-11-25T12:37:43+00:00,bmkg_nowcast,ok,26,26,0,26,arsip/bmkg_nowcast/2026/11/2026-11-25_1237Z.jsonl.gz,"26 aktif di feed, 26 baru; "
 2026-11-25T22:24:54+00:00,bmkg_nowcast,ok,7,7,0,7,arsip/bmkg_nowcast/2026/11/2026-11-25_2224Z.jsonl.gz,"7 aktif di feed, 7 baru; "
+2026-11-26T04:19:48+00:00,bmkg_nowcast,ok,21,21,0,21,arsip/bmkg_nowcast/2026/11/2026-11-26_0419Z.jsonl.gz,"21 aktif di feed, 21 baru; "
